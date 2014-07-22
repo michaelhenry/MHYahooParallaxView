@@ -69,8 +69,7 @@
 - (void)layoutSubviews
 {
     [super layoutSubviews];
-     self.parallaxBackgroundImageView.frame = CGRectMake(0.0f, 0.0f, self.frame.size.width, self.frame.size.height);
-
+     self.parallaxBackgroundImageView.frame = CGRectMake(0.0f, 0.0f, self.contentView.frame.size.width, self.contentView.frame.size.height);
 }
 
 @end
@@ -147,9 +146,9 @@
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         if(_parallaxViewType == MHYahooParallaxViewTypeHorizontal) {
             cell.transform = CGAffineTransformMakeRotation(M_PI_2);
+            cell.contentView.frame = CGRectMake(0.0f, 0.0f, _width, _height);
         }
 
-        cell.contentView.frame = CGRectMake(0.0f, 0.0f, _width, _height);
     }
     if([self.datasource respondsToSelector:@selector(parallaxView:imageForIndex:)]) {
         UIImage * image = [self.datasource parallaxView:self imageForIndex:indexPath.row];
