@@ -49,6 +49,7 @@
     _parallaxView = [[MHYahooParallaxView alloc]initWithFrame:CGRectMake(0.0f, 0.0f, self.view.frame.size.width, self.view.frame.size.height)];
     _parallaxView.parallaxViewType = MHYahooParallaxViewTypeHorizontal;
     _parallaxView.datasource = self;
+    _parallaxView.backgroundColor = [UIColor blackColor];
     [self.view addSubview:_parallaxView];
 
 }
