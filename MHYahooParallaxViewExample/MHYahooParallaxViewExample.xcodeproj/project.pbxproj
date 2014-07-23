@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1434BE291980003E00DE8257 /* MHYahooParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1434BE281980003E00DE8257 /* MHYahooParallaxView.m */; };
 		1497BC3B197EE3F800F2C632 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3A197EE3F800F2C632 /* Foundation.framework */; };
 		1497BC3D197EE3F800F2C632 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3C197EE3F800F2C632 /* CoreGraphics.framework */; };
 		1497BC3F197EE3F800F2C632 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3E197EE3F800F2C632 /* UIKit.framework */; };
@@ -21,7 +22,6 @@
 		1497BC5C197EE3F800F2C632 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3E197EE3F800F2C632 /* UIKit.framework */; };
 		1497BC64197EE3F800F2C632 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC62197EE3F800F2C632 /* InfoPlist.strings */; };
 		1497BC66197EE3F800F2C632 /* MHYahooParallaxViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1497BC65197EE3F800F2C632 /* MHYahooParallaxViewExampleTests.m */; };
-		1497BC71197EE52A00F2C632 /* MHYahooParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1497BC6F197EE52900F2C632 /* MHYahooParallaxView.m */; };
 		1497BC93197EEE1200F2C632 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC8E197EEE1200F2C632 /* 0.jpg */; };
 		1497BC94197EEE1200F2C632 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC8F197EEE1200F2C632 /* 1.jpg */; };
 		1497BC95197EEE1200F2C632 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC90197EEE1200F2C632 /* 2.jpg */; };
@@ -40,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1434BE271980003E00DE8257 /* MHYahooParallaxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHYahooParallaxView.h; sourceTree = "<group>"; };
+		1434BE281980003E00DE8257 /* MHYahooParallaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHYahooParallaxView.m; sourceTree = "<group>"; };
 		1497BC37197EE3F800F2C632 /* MHYahooParallaxViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHYahooParallaxViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1497BC3A197EE3F800F2C632 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1497BC3C197EE3F800F2C632 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,8 +61,6 @@
 		1497BC61197EE3F800F2C632 /* MHYahooParallaxViewExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MHYahooParallaxViewExampleTests-Info.plist"; sourceTree = "<group>"; };
 		1497BC63197EE3F800F2C632 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1497BC65197EE3F800F2C632 /* MHYahooParallaxViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHYahooParallaxViewExampleTests.m; sourceTree = "<group>"; };
-		1497BC6F197EE52900F2C632 /* MHYahooParallaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHYahooParallaxView.m; sourceTree = "<group>"; };
-		1497BC70197EE52A00F2C632 /* MHYahooParallaxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHYahooParallaxView.h; sourceTree = "<group>"; };
 		1497BC8E197EEE1200F2C632 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
 		1497BC8F197EEE1200F2C632 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		1497BC90197EEE1200F2C632 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
@@ -92,6 +92,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1434BE261980003E00DE8257 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1434BE271980003E00DE8257 /* MHYahooParallaxView.h */,
+				1434BE281980003E00DE8257 /* MHYahooParallaxView.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
 		1497BC2E197EE3F800F2C632 = {
 			isa = PBXGroup;
 			children = (
@@ -125,8 +135,8 @@
 		1497BC40197EE3F800F2C632 /* MHYahooParallaxViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				1434BE261980003E00DE8257 /* Classes */,
 				1497BC8D197EEE1200F2C632 /* NATURE */,
-				1497BC72197EE52E00F2C632 /* Class */,
 				1497BC49197EE3F800F2C632 /* AppDelegate.h */,
 				1497BC4A197EE3F800F2C632 /* AppDelegate.m */,
 				1497BC4C197EE3F800F2C632 /* Main.storyboard */,
@@ -165,15 +175,6 @@
 				1497BC62197EE3F800F2C632 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1497BC72197EE52E00F2C632 /* Class */ = {
-			isa = PBXGroup;
-			children = (
-				1497BC6F197EE52900F2C632 /* MHYahooParallaxView.m */,
-				1497BC70197EE52A00F2C632 /* MHYahooParallaxView.h */,
-			);
-			name = Class;
 			sourceTree = "<group>";
 		};
 		1497BC8D197EEE1200F2C632 /* NATURE */ = {
@@ -291,7 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1497BC51197EE3F800F2C632 /* ViewController.m in Sources */,
-				1497BC71197EE52A00F2C632 /* MHYahooParallaxView.m in Sources */,
+				1434BE291980003E00DE8257 /* MHYahooParallaxView.m in Sources */,
 				1497BC4B197EE3F800F2C632 /* AppDelegate.m in Sources */,
 				1497BC47197EE3F800F2C632 /* main.m in Sources */,
 			);
@@ -498,6 +499,7 @@
 				1497BC6B197EE3F800F2C632 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1497BC6C197EE3F800F2C632 /* Build configuration list for PBXNativeTarget "MHYahooParallaxViewExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +508,7 @@
 				1497BC6E197EE3F800F2C632 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
