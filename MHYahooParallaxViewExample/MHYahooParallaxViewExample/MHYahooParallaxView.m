@@ -117,6 +117,7 @@
     _parallaxTableView.showsHorizontalScrollIndicator = NO;
     _parallaxTableView.showsVerticalScrollIndicator = NO;
     _parallaxTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    _parallaxTableView.backgroundColor = self.backgroundColor;
 
 }
 
