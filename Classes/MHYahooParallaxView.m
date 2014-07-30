@@ -170,7 +170,7 @@
     if(_parallaxViewType == MHYahooParallaxViewTypeHorizontal){
         CGFloat top = 0.0f;
         CGFloat leftImageMargingLeft = scrollView.contentOffset.y>0?((fmod(scrollView.contentOffset.y + _width,_width))):0.0f;
-        CGFloat leftImageWidth = _width - (fmod(scrollView.contentOffset.y ,_width));
+        CGFloat leftImageWidth = _width - (fmod(abs(scrollView.contentOffset.y),_width));
         CGFloat rightImageMarginLeft = 0.0f;
         CGFloat rightImageWidth = leftImageMargingLeft;
 
@@ -182,7 +182,7 @@
     }else {
         CGFloat left = 0.0f;
         CGFloat firstTop = scrollView.contentOffset.y>0?((fmod(scrollView.contentOffset.y + _height,_height))):0.0f;
-        CGFloat firstHeight = _height - (fmod(scrollView.contentOffset.y ,_height));
+        CGFloat firstHeight = _height - (fmod(abs(scrollView.contentOffset.y) ,_height));
         CGFloat secondTop = 0.0f;
         CGFloat secondHeight = firstTop;
 
