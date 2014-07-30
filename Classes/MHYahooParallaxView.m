@@ -32,7 +32,7 @@
     CGFloat _width;
     CGFloat _height;
     CGFloat _parallaxTableViewHeight;
-    int _dataCount;
+    NSInteger _dataCount;
     CGFloat _pageDivisor;
     NSInteger _currentPhotoIndex;
 
@@ -77,7 +77,7 @@
 @implementation MHYahooParallaxView
 @synthesize parallaxViewType = _parallaxViewType;
 @synthesize parallaxTableView=_parallaxTableView;
-//@synthesize datasource = _datasource;
+@synthesize datasource = _datasource;
 - (id)initWithFrame:(CGRect)frame
 {
     return [self initWithFrame:frame withViewType:MHYahooParallaxViewTypeHorizontal];
@@ -127,8 +127,8 @@
 }
 
 - (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    if([self.datasource respondsToSelector:@selector(numberOfRows:)]) {
-        _dataCount =  [self.datasource numberOfRows:self];
+    if([_datasource respondsToSelector:@selector(numberOfRows:)]) {
+        _dataCount =  [_datasource numberOfRows:self];
 
     }
        return _dataCount;
@@ -151,8 +151,8 @@
         }
 
     }
-    if([self.datasource respondsToSelector:@selector(parallaxView:imageForIndex:)]) {
-        UIImage * image = [self.datasource parallaxView:self imageForIndex:indexPath.row];
+    if([_datasource respondsToSelector:@selector(parallaxView:imageForIndex:)]) {
+        UIImage * image = [_datasource parallaxView:self imageForIndex:indexPath.row];
         [cell.parallaxBackgroundImageView setImage:image];
     }
     return cell;
@@ -196,7 +196,8 @@
 
 
 - (void) dealloc {
-    
+    _parallaxTableView = nil;
+    _datasource = nil;
 }
 
 
