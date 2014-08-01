@@ -7,9 +7,9 @@ Parallax implementation control library inspired by Yahoo Weather and News Diges
 ![Preview](http://iamkel.s3.amazonaws.com/github/MHParallaxIntro.gif)
 ![Preview](http://iamkel.s3.amazonaws.com/github/MHParallax.gif)
 
-#### News Digest Sample Screenshot
+#### Custom ImageView Screenshot (Tsekot.net app)
 
-![Preview](http://iamkel.s3.amazonaws.com/github/MHYahooParallaxView-NewsDigest.gif)
+![Preview](http://iamkel.s3.amazonaws.com/github/Tsekot.gif)
 
 
 ## How to use
