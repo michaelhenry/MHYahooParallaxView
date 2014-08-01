@@ -11,7 +11,7 @@ Parallax implementation control library inspired by Yahoo Weather and News Diges
 
 ![Preview](http://iamkel.s3.amazonaws.com/github/Tsekot.gif)
 
-Designed by [Kel](http://ph.linkedin.com/in/ken119)
+Designed and developed by [michaelhenry](https://github.com/michaelhenry)
 
 ## How to use
 ### Setup
