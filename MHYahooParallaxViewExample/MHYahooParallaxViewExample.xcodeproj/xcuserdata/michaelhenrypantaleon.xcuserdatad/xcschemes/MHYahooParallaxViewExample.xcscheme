@@ -48,6 +48,16 @@
                ReferencedContainer = "container:MHYahooParallaxViewExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "14DE3208198BFCB5001391A3"
+               BuildableName = "SimpleVerticalTests.xctest"
+               BlueprintName = "SimpleVerticalTests"
+               ReferencedContainer = "container:MHYahooParallaxViewExample.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

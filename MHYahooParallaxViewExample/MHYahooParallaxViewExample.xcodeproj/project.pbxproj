@@ -32,6 +32,26 @@
 		14DE31E6198BFB16001391A3 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC90197EEE1200F2C632 /* 2.jpg */; };
 		14DE31E7198BFB16001391A3 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC91197EEE1200F2C632 /* 3.jpg */; };
 		14DE31E8198BFB16001391A3 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC92197EEE1200F2C632 /* 4.jpg */; };
+		14DE31EE198BFCB5001391A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3A197EE3F800F2C632 /* Foundation.framework */; };
+		14DE31EF198BFCB5001391A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3C197EE3F800F2C632 /* CoreGraphics.framework */; };
+		14DE31F0198BFCB5001391A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3E197EE3F800F2C632 /* UIKit.framework */; };
+		14DE31F6198BFCB5001391A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14DE31F4198BFCB5001391A3 /* InfoPlist.strings */; };
+		14DE31F8198BFCB5001391A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE31F7198BFCB5001391A3 /* main.m */; };
+		14DE31FC198BFCB5001391A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE31FB198BFCB5001391A3 /* AppDelegate.m */; };
+		14DE31FF198BFCB5001391A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DE31FD198BFCB5001391A3 /* Main.storyboard */; };
+		14DE3202198BFCB5001391A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE3201198BFCB5001391A3 /* ViewController.m */; };
+		14DE3204198BFCB5001391A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14DE3203198BFCB5001391A3 /* Images.xcassets */; };
+		14DE320A198BFCB5001391A3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC59197EE3F800F2C632 /* XCTest.framework */; };
+		14DE320B198BFCB5001391A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3A197EE3F800F2C632 /* Foundation.framework */; };
+		14DE320C198BFCB5001391A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3E197EE3F800F2C632 /* UIKit.framework */; };
+		14DE3214198BFCB5001391A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14DE3212198BFCB5001391A3 /* InfoPlist.strings */; };
+		14DE3216198BFCB5001391A3 /* SimpleVerticalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE3215198BFCB5001391A3 /* SimpleVerticalTests.m */; };
+		14DE321D198BFCDF001391A3 /* MHYahooParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1434BE281980003E00DE8257 /* MHYahooParallaxView.m */; };
+		14DE321E198BFCE4001391A3 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC8E197EEE1200F2C632 /* 0.jpg */; };
+		14DE321F198BFCE4001391A3 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC8F197EEE1200F2C632 /* 1.jpg */; };
+		14DE3220198BFCE4001391A3 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC90197EEE1200F2C632 /* 2.jpg */; };
+		14DE3221198BFCE4001391A3 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC91197EEE1200F2C632 /* 3.jpg */; };
+		14DE3222198BFCE4001391A3 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC92197EEE1200F2C632 /* 4.jpg */; };
 		14FC483D198BF4540084C7DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3A197EE3F800F2C632 /* Foundation.framework */; };
 		14FC483E198BF4540084C7DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3C197EE3F800F2C632 /* CoreGraphics.framework */; };
 		14FC483F198BF4540084C7DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3E197EE3F800F2C632 /* UIKit.framework */; };
@@ -56,6 +76,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1497BC36197EE3F800F2C632;
 			remoteInfo = MHYahooParallaxViewExample;
+		};
+		14DE320D198BFCB5001391A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1497BC2F197EE3F800F2C632 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14DE31EC198BFCB5001391A3;
+			remoteInfo = SimpleVertical;
 		};
 		14FC485C198BF4540084C7DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -93,6 +120,21 @@
 		1497BC90197EEE1200F2C632 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		1497BC91197EEE1200F2C632 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		1497BC92197EEE1200F2C632 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		14DE31ED198BFCB5001391A3 /* SimpleVertical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleVertical.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DE31F3198BFCB5001391A3 /* SimpleVertical-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleVertical-Info.plist"; sourceTree = "<group>"; };
+		14DE31F5198BFCB5001391A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14DE31F7198BFCB5001391A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14DE31F9198BFCB5001391A3 /* SimpleVertical-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleVertical-Prefix.pch"; sourceTree = "<group>"; };
+		14DE31FA198BFCB5001391A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14DE31FB198BFCB5001391A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14DE31FE198BFCB5001391A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14DE3200198BFCB5001391A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14DE3201198BFCB5001391A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14DE3203198BFCB5001391A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14DE3209198BFCB5001391A3 /* SimpleVerticalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleVerticalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DE3211198BFCB5001391A3 /* SimpleVerticalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleVerticalTests-Info.plist"; sourceTree = "<group>"; };
+		14DE3213198BFCB5001391A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14DE3215198BFCB5001391A3 /* SimpleVerticalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleVerticalTests.m; sourceTree = "<group>"; };
 		14FC483C198BF4540084C7DC /* SimpleHorizontal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleHorizontal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14FC4842198BF4540084C7DC /* SimpleHorizontal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleHorizontal-Info.plist"; sourceTree = "<group>"; };
 		14FC4844198BF4540084C7DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -128,6 +170,26 @@
 				1497BC5A197EE3F800F2C632 /* XCTest.framework in Frameworks */,
 				1497BC5C197EE3F800F2C632 /* UIKit.framework in Frameworks */,
 				1497BC5B197EE3F800F2C632 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DE31EA198BFCB5001391A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DE31EF198BFCB5001391A3 /* CoreGraphics.framework in Frameworks */,
+				14DE31F0198BFCB5001391A3 /* UIKit.framework in Frameworks */,
+				14DE31EE198BFCB5001391A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DE3206198BFCB5001391A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DE320A198BFCB5001391A3 /* XCTest.framework in Frameworks */,
+				14DE320C198BFCB5001391A3 /* UIKit.framework in Frameworks */,
+				14DE320B198BFCB5001391A3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +233,8 @@
 				1497BC5F197EE3F800F2C632 /* MHYahooParallaxViewExampleTests */,
 				14FC4840198BF4540084C7DC /* SimpleHorizontal */,
 				14FC485E198BF4540084C7DC /* SimpleHorizontalTests */,
+				14DE31F1198BFCB5001391A3 /* SimpleVertical */,
+				14DE320F198BFCB5001391A3 /* SimpleVerticalTests */,
 				1497BC39197EE3F800F2C632 /* Frameworks */,
 				1497BC38197EE3F800F2C632 /* Products */,
 			);
@@ -183,6 +247,8 @@
 				1497BC58197EE3F800F2C632 /* MHYahooParallaxViewExampleTests.xctest */,
 				14FC483C198BF4540084C7DC /* SimpleHorizontal.app */,
 				14FC4858198BF4540084C7DC /* SimpleHorizontalTests.xctest */,
+				14DE31ED198BFCB5001391A3 /* SimpleVertical.app */,
+				14DE3209198BFCB5001391A3 /* SimpleVerticalTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -253,6 +319,49 @@
 				1497BC92197EEE1200F2C632 /* 4.jpg */,
 			);
 			path = NATURE;
+			sourceTree = "<group>";
+		};
+		14DE31F1198BFCB5001391A3 /* SimpleVertical */ = {
+			isa = PBXGroup;
+			children = (
+				14DE31FA198BFCB5001391A3 /* AppDelegate.h */,
+				14DE31FB198BFCB5001391A3 /* AppDelegate.m */,
+				14DE31FD198BFCB5001391A3 /* Main.storyboard */,
+				14DE3200198BFCB5001391A3 /* ViewController.h */,
+				14DE3201198BFCB5001391A3 /* ViewController.m */,
+				14DE3203198BFCB5001391A3 /* Images.xcassets */,
+				14DE31F2198BFCB5001391A3 /* Supporting Files */,
+			);
+			path = SimpleVertical;
+			sourceTree = "<group>";
+		};
+		14DE31F2198BFCB5001391A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14DE31F3198BFCB5001391A3 /* SimpleVertical-Info.plist */,
+				14DE31F4198BFCB5001391A3 /* InfoPlist.strings */,
+				14DE31F7198BFCB5001391A3 /* main.m */,
+				14DE31F9198BFCB5001391A3 /* SimpleVertical-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14DE320F198BFCB5001391A3 /* SimpleVerticalTests */ = {
+			isa = PBXGroup;
+			children = (
+				14DE3215198BFCB5001391A3 /* SimpleVerticalTests.m */,
+				14DE3210198BFCB5001391A3 /* Supporting Files */,
+			);
+			path = SimpleVerticalTests;
+			sourceTree = "<group>";
+		};
+		14DE3210198BFCB5001391A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14DE3211198BFCB5001391A3 /* SimpleVerticalTests-Info.plist */,
+				14DE3212198BFCB5001391A3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		14FC4840198BF4540084C7DC /* SimpleHorizontal */ = {
@@ -336,6 +445,41 @@
 			productReference = 1497BC58197EE3F800F2C632 /* MHYahooParallaxViewExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		14DE31EC198BFCB5001391A3 /* SimpleVertical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DE3217198BFCB5001391A3 /* Build configuration list for PBXNativeTarget "SimpleVertical" */;
+			buildPhases = (
+				14DE31E9198BFCB5001391A3 /* Sources */,
+				14DE31EA198BFCB5001391A3 /* Frameworks */,
+				14DE31EB198BFCB5001391A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleVertical;
+			productName = SimpleVertical;
+			productReference = 14DE31ED198BFCB5001391A3 /* SimpleVertical.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14DE3208198BFCB5001391A3 /* SimpleVerticalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DE321A198BFCB5001391A3 /* Build configuration list for PBXNativeTarget "SimpleVerticalTests" */;
+			buildPhases = (
+				14DE3205198BFCB5001391A3 /* Sources */,
+				14DE3206198BFCB5001391A3 /* Frameworks */,
+				14DE3207198BFCB5001391A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14DE320E198BFCB5001391A3 /* PBXTargetDependency */,
+			);
+			name = SimpleVerticalTests;
+			productName = SimpleVerticalTests;
+			productReference = 14DE3209198BFCB5001391A3 /* SimpleVerticalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		14FC483B198BF4540084C7DC /* SimpleHorizontal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14FC486A198BF4550084C7DC /* Build configuration list for PBXNativeTarget "SimpleHorizontal" */;
@@ -383,6 +527,9 @@
 					1497BC57197EE3F800F2C632 = {
 						TestTargetID = 1497BC36197EE3F800F2C632;
 					};
+					14DE3208198BFCB5001391A3 = {
+						TestTargetID = 1497BC36197EE3F800F2C632;
+					};
 					14FC4857198BF4540084C7DC = {
 						TestTargetID = 1497BC36197EE3F800F2C632;
 					};
@@ -405,6 +552,8 @@
 				1497BC57197EE3F800F2C632 /* MHYahooParallaxViewExampleTests */,
 				14FC483B198BF4540084C7DC /* SimpleHorizontal */,
 				14FC4857198BF4540084C7DC /* SimpleHorizontalTests */,
+				14DE31EC198BFCB5001391A3 /* SimpleVertical */,
+				14DE3208198BFCB5001391A3 /* SimpleVerticalTests */,
 			);
 		};
 /* End PBXProject section */
@@ -430,6 +579,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				1497BC64197EE3F800F2C632 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DE31EB198BFCB5001391A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DE321E198BFCE4001391A3 /* 0.jpg in Resources */,
+				14DE321F198BFCE4001391A3 /* 1.jpg in Resources */,
+				14DE3220198BFCE4001391A3 /* 2.jpg in Resources */,
+				14DE3221198BFCE4001391A3 /* 3.jpg in Resources */,
+				14DE3222198BFCE4001391A3 /* 4.jpg in Resources */,
+				14DE3204198BFCB5001391A3 /* Images.xcassets in Resources */,
+				14DE31F6198BFCB5001391A3 /* InfoPlist.strings in Resources */,
+				14DE31FF198BFCB5001391A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DE3207198BFCB5001391A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DE3214198BFCB5001391A3 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +650,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		14DE31E9198BFCB5001391A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DE321D198BFCDF001391A3 /* MHYahooParallaxView.m in Sources */,
+				14DE3202198BFCB5001391A3 /* ViewController.m in Sources */,
+				14DE31FC198BFCB5001391A3 /* AppDelegate.m in Sources */,
+				14DE31F8198BFCB5001391A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DE3205198BFCB5001391A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DE3216198BFCB5001391A3 /* SimpleVerticalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		14FC4838198BF4540084C7DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -504,6 +695,11 @@
 			isa = PBXTargetDependency;
 			target = 1497BC36197EE3F800F2C632 /* MHYahooParallaxViewExample */;
 			targetProxy = 1497BC5D197EE3F800F2C632 /* PBXContainerItemProxy */;
+		};
+		14DE320E198BFCB5001391A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14DE31EC198BFCB5001391A3 /* SimpleVertical */;
+			targetProxy = 14DE320D198BFCB5001391A3 /* PBXContainerItemProxy */;
 		};
 		14FC485D198BF4540084C7DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -533,6 +729,30 @@
 			isa = PBXVariantGroup;
 			children = (
 				1497BC63197EE3F800F2C632 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14DE31F4198BFCB5001391A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14DE31F5198BFCB5001391A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14DE31FD198BFCB5001391A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14DE31FE198BFCB5001391A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14DE3212198BFCB5001391A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14DE3213198BFCB5001391A3 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -700,6 +920,76 @@
 			};
 			name = Release;
 		};
+		14DE3218198BFCB5001391A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleVertical/SimpleVertical-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SimpleVertical/SimpleVertical-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14DE3219198BFCB5001391A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleVertical/SimpleVertical-Prefix.pch";
+				INFOPLIST_FILE = "SimpleVertical/SimpleVertical-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		14DE321B198BFCB5001391A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MHYahooParallaxViewExample.app/MHYahooParallaxViewExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleVertical/SimpleVertical-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SimpleVerticalTests/SimpleVerticalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		14DE321C198BFCB5001391A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MHYahooParallaxViewExample.app/MHYahooParallaxViewExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleVertical/SimpleVertical-Prefix.pch";
+				INFOPLIST_FILE = "SimpleVerticalTests/SimpleVerticalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		14FC4866198BF4550084C7DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -799,6 +1089,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		14DE3217198BFCB5001391A3 /* Build configuration list for PBXNativeTarget "SimpleVertical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DE3218198BFCB5001391A3 /* Debug */,
+				14DE3219198BFCB5001391A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14DE321A198BFCB5001391A3 /* Build configuration list for PBXNativeTarget "SimpleVerticalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DE321B198BFCB5001391A3 /* Debug */,
+				14DE321C198BFCB5001391A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		14FC486A198BF4550084C7DC /* Build configuration list for PBXNativeTarget "SimpleHorizontal" */ = {
 			isa = XCConfigurationList;
