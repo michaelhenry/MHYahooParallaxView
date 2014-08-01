@@ -7,10 +7,11 @@ Parallax implementation control library inspired by Yahoo Weather and News Diges
 ![Preview](http://iamkel.s3.amazonaws.com/github/MHParallaxIntro.gif)
 ![Preview](http://iamkel.s3.amazonaws.com/github/MHParallax.gif)
 
-#### Custom ImageView Screenshot (Tsekot.net app)
+#### Custom ImageView Screenshot (Tsekot.net app - prototype)
 
 ![Preview](http://iamkel.s3.amazonaws.com/github/Tsekot.gif)
 
+	Designed by [Kel](http://ph.linkedin.com/in/ken119)
 
 ## How to use
 ### Setup
