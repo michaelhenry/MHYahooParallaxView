@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1497BC36197EE3F800F2C632"
-               BuildableName = "MHYahooParallaxViewExample.app"
-               BlueprintName = "MHYahooParallaxViewExample"
+               BlueprintIdentifier = "14FC483B198BF4540084C7DC"
+               BuildableName = "SimpleHorizontal.app"
+               BlueprintName = "SimpleHorizontal"
                ReferencedContainer = "container:MHYahooParallaxViewExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,33 +28,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1497BC57197EE3F800F2C632"
-               BuildableName = "MHYahooParallaxViewExampleTests.xctest"
-               BlueprintName = "MHYahooParallaxViewExampleTests"
-               ReferencedContainer = "container:MHYahooParallaxViewExample.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "14FC4857198BF4540084C7DC"
-               BuildableName = "SimpleHorizontalTests.xctest"
-               BlueprintName = "SimpleHorizontalTests"
-               ReferencedContainer = "container:MHYahooParallaxViewExample.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1497BC36197EE3F800F2C632"
-            BuildableName = "MHYahooParallaxViewExample.app"
-            BlueprintName = "MHYahooParallaxViewExample"
+            BlueprintIdentifier = "14FC483B198BF4540084C7DC"
+            BuildableName = "SimpleHorizontal.app"
+            BlueprintName = "SimpleHorizontal"
             ReferencedContainer = "container:MHYahooParallaxViewExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -71,9 +51,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1497BC36197EE3F800F2C632"
-            BuildableName = "MHYahooParallaxViewExample.app"
-            BlueprintName = "MHYahooParallaxViewExample"
+            BlueprintIdentifier = "14FC483B198BF4540084C7DC"
+            BuildableName = "SimpleHorizontal.app"
+            BlueprintName = "SimpleHorizontal"
             ReferencedContainer = "container:MHYahooParallaxViewExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -89,9 +69,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1497BC36197EE3F800F2C632"
-            BuildableName = "MHYahooParallaxViewExample.app"
-            BlueprintName = "MHYahooParallaxViewExample"
+            BlueprintIdentifier = "14FC483B198BF4540084C7DC"
+            BuildableName = "SimpleHorizontal.app"
+            BlueprintName = "SimpleHorizontal"
             ReferencedContainer = "container:MHYahooParallaxViewExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

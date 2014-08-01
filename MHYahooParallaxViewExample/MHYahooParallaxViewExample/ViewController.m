@@ -108,11 +108,6 @@
     return 5;
 }
 
-- (UIImage*)parallaxView:(MHYahooParallaxView *)parallaxView imageForIndex:(NSInteger)index {
-
-    return [UIImage imageNamed:[NSString stringWithFormat:@"%i.jpg",index ]];
-}
-
 - (void)parallaxViewDidScrollHorizontally:(MHYahooParallaxView *)parallaxView leftIndex:(NSInteger)leftIndex leftImageLeftMargin:(CGFloat)leftImageLeftMargin leftImageWidth:(CGFloat)leftImageWidth rightIndex:(NSInteger)rightIndex rightImageLeftMargin:(CGFloat)rightImageLeftMargin rightImageWidth:(CGFloat)rightImageWidth  {
 
     if(leftIndex >= 0){

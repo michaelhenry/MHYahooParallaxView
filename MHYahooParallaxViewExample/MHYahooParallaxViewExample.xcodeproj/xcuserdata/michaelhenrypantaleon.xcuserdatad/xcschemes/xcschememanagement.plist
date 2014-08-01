@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>SimpleHorizontal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>1497BC57197EE3F800F2C632</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14FC483B198BF4540084C7DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14FC4857198BF4540084C7DC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
