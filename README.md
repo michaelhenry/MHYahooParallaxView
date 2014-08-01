@@ -7,6 +7,10 @@ Parallax implementation control library inspired by Yahoo Weather and News Diges
 ![Preview](http://iamkel.s3.amazonaws.com/github/MHParallaxIntro.gif)
 ![Preview](http://iamkel.s3.amazonaws.com/github/MHParallax.gif)
 
+#### News Digest Sample Screenshot
+
+![Preview](http://iamkel.s3.amazonaws.com/github/MHYahooParallaxView-NewsDigest.gif)
+
 
 ## How to use
 ### Setup
