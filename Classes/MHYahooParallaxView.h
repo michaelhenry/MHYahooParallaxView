@@ -33,11 +33,11 @@
 @protocol MHYahooParallaxViewDatasource <NSObject>
 
 @required
-- (UIImage*) parallaxView:(MHYahooParallaxView *)parallaxView imageForIndex:(NSInteger)index;
+
 - (NSInteger) numberOfRows: (MHYahooParallaxView *)parallaxView;
 
-
 @optional
+- (UIImage*) parallaxView:(MHYahooParallaxView *)parallaxView imageForIndex:(NSInteger)index;
 - (BOOL) shouldUseCustomCell;
 - (MHYahooParallaxViewCell*) parallaxView:(MHYahooParallaxView *)parallaxView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
 

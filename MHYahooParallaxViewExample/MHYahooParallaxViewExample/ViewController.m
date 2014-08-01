@@ -31,7 +31,11 @@
 #define IMAGE_VIEW_TAG 100
 #define IMAGE_SCROLL_VIEW_TAG 101
 
-@interface ViewController ()<MHYahooParallaxViewDatasource,MHYahooParallaxViewDelegate,UITableViewDataSource,UITableViewDelegate>
+#define CONTENT_IMAGE_VIEW_TAG 102
+
+@interface ViewController ()<MHYahooParallaxViewDatasource,MHYahooParallaxViewDelegate,UITableViewDataSource,UITableViewDelegate>{
+    CGFloat _headerHeight;
+}
 
 
 @property (strong, nonatomic) MHYahooParallaxView *parallaxView;
@@ -39,7 +43,7 @@
 @end
 
 
-@interface SampleCell : MHYahooParallaxViewCell<UITableViewDelegate> {
+@interface TsekotCell : MHYahooParallaxViewCell<UITableViewDelegate> {
     BOOL _mustDisableParent;
 }
 @property (nonatomic,strong) UITableView * tableView;
@@ -48,7 +52,7 @@
 @end
 
 
-@implementation SampleCell
+@implementation TsekotCell
 @synthesize tableView = _tableView;
 
 - (id) initWithFrame:(CGRect)frame reuseIdentifier:(NSString*)reuseIdentifier withDataSource:(id<UITableViewDataSource>) datasource withDelegate:(id<UITableViewDelegate> ) delegate {
@@ -58,6 +62,7 @@
         [self.contentView addSubview:_tableView];
         _tableView.dataSource = datasource;
         _tableView.delegate = delegate;
+
     }
     return self;
 }
@@ -65,7 +70,6 @@
 
 - (void) layoutSubviews {
     [super layoutSubviews];
-
 }
 
 
@@ -85,6 +89,8 @@
 
 - (void) loadView {
     [super loadView];
+    _headerHeight = self.view.frame.size.height * 0.70f;
+
     _parallaxView = [[MHYahooParallaxView alloc]initWithFrame:CGRectMake(0.0f, 0.0f, self.view.frame.size.width, self.view.frame.size.height)];
     _parallaxView.parallaxViewType = MHYahooParallaxViewTypeHorizontal;
     _parallaxView.datasource = self;
@@ -105,7 +111,7 @@
 }
 
 - (NSInteger) numberOfRows:(MHYahooParallaxView *)parallaxView {
-    return 5;
+    return 10;
 }
 
 - (void)parallaxViewDidScrollHorizontally:(MHYahooParallaxView *)parallaxView leftIndex:(NSInteger)leftIndex leftImageLeftMargin:(CGFloat)leftImageLeftMargin leftImageWidth:(CGFloat)leftImageWidth rightIndex:(NSInteger)rightIndex rightImageLeftMargin:(CGFloat)rightImageLeftMargin rightImageWidth:(CGFloat)rightImageWidth  {
@@ -130,9 +136,9 @@
 }
 - (MHYahooParallaxViewCell *)parallaxView:(MHYahooParallaxView *)parallaxView cellForRowAtIndexPath:(NSIndexPath *)indexPath  {
     static NSString * cellID = @"custom";
-    SampleCell * cell = (SampleCell*)[parallaxView dequeueReusableCellWithIdentifier:cellID];
+    TsekotCell * cell = (TsekotCell*)[parallaxView dequeueReusableCellWithIdentifier:cellID];
     if(!cell)  {
-        cell = [[SampleCell alloc]initWithFrame:CGRectMake(0.0f, 0.0f, self.view.frame.size.width, self.view.frame.size.height)  reuseIdentifier:cellID withDataSource:self withDelegate:self];
+        cell = [[TsekotCell alloc]initWithFrame:CGRectMake(0.0f, 0.0f, self.view.frame.size.width, self.view.frame.size.height)  reuseIdentifier:cellID withDataSource:self withDelegate:self];
     }
 
     cell.tableView.tag = indexPath.row;
@@ -146,14 +152,14 @@
 }
 
 -(NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 100;
+    return 2;
 }
 
 - (CGFloat ) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath  {
     if(indexPath.row == 0) {
-        return 320.0f;
+        return _headerHeight;
     }
-    return 44.0f;
+    return 568.0f;
 }
 
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -164,8 +170,7 @@
         if(!cell) {
             cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:headerId];
             cell.backgroundColor = [UIColor clearColor];
-
-            UIImageView * imageView = [[UIImageView alloc]initWithFrame:CGRectMake(0.0f, 0.0f, cell.contentView.frame.size.width, 320.0f)];
+            UIImageView * imageView = [[UIImageView alloc]initWithFrame:CGRectMake(0.0f, 0.0f, cell.contentView.frame.size.width,_headerHeight)];
             imageView.contentMode = UIViewContentModeCenter;
             imageView.tag = IMAGE_VIEW_TAG;
             imageView.clipsToBounds = YES;
@@ -173,25 +178,39 @@
             UIScrollView * svImage = [[UIScrollView alloc]initWithFrame:imageView.frame];
             svImage.delegate = self;
             svImage.userInteractionEnabled = NO;
+
             [svImage addSubview:imageView];
 
             svImage.tag = IMAGE_SCROLL_VIEW_TAG;
+            svImage.backgroundColor = [UIColor blackColor];
             svImage.minimumZoomScale = 1.0f;
             svImage.maximumZoomScale = 2.0f;
-            
             [cell.contentView addSubview:svImage];
+            UIImageView * headerInfo = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"header_bg"]];
+
+
+            [cell.contentView addSubview:headerInfo];
+
+            CGRect headerFrame = headerInfo.frame;
+            headerFrame.size.height = 149.0f;
+            headerFrame.origin.y = _headerHeight - 149.0f;
+            headerInfo.frame = headerFrame;
+
         }
 
         UIImageView *imageView = (UIImageView*)[cell viewWithTag:IMAGE_VIEW_TAG];
-        imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"%i.jpg",tableView.tag]];
+        imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"subaru-%i.jpg",tableView.tag]];
     } else {
         static NSString * detailId = @"detailCell";
         cell = [tableView dequeueReusableCellWithIdentifier:detailId];
         if(!cell) {
             cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:detailId];
+            UIImageView * imageView = [[UIImageView alloc]initWithFrame:CGRectMake(0.0f, 0.0f, self.view.frame.size.width, 568.0f)];
+            imageView.tag = CONTENT_IMAGE_VIEW_TAG;
+            [cell.contentView addSubview:imageView];
         }
-        cell.textLabel.text = [NSString stringWithFormat:@"UITableViewCell -> Row %i",indexPath.row];
-        cell.detailTextLabel.text = @"iamkel.net";
+        UIImageView *imageView = (UIImageView*)[cell viewWithTag:CONTENT_IMAGE_VIEW_TAG];
+        imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"content-%i",(tableView.tag%3) + 1]];
     }
 
     return cell;
@@ -203,7 +222,7 @@
     UITableViewCell * cell = [tv cellForRowAtIndexPath:[NSIndexPath indexPathForItem:0 inSection:0]];
     UIScrollView * svImage = (UIScrollView*)[cell viewWithTag:IMAGE_SCROLL_VIEW_TAG];
     CGRect frame = svImage.frame;
-    frame.size.height =  abs(320-tv.contentOffset.y);
+    frame.size.height =  MAX((320-tv.contentOffset.y),0);
     frame.origin.y = tv.contentOffset.y;
     svImage.frame = frame;
     svImage.zoomScale = 1 + (abs(MIN(tv.contentOffset.y,0))/320.0f);
