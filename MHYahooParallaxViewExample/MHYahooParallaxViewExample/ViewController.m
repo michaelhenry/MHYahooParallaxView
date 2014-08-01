@@ -174,7 +174,7 @@
             imageView.contentMode = UIViewContentModeCenter;
             imageView.tag = IMAGE_VIEW_TAG;
             imageView.clipsToBounds = YES;
-            imageView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
+            imageView.autoresizingMask = UIViewAutoresizingFlexibleHeight;
             UIScrollView * svImage = [[UIScrollView alloc]initWithFrame:imageView.frame];
             svImage.delegate = self;
             svImage.userInteractionEnabled = NO;
@@ -183,6 +183,7 @@
 
             svImage.tag = IMAGE_SCROLL_VIEW_TAG;
             svImage.backgroundColor = [UIColor blackColor];
+            svImage.zoomScale = 1.0f;
             svImage.minimumZoomScale = 1.0f;
             svImage.maximumZoomScale = 2.0f;
             [cell.contentView addSubview:svImage];
@@ -222,10 +223,11 @@
     UITableViewCell * cell = [tv cellForRowAtIndexPath:[NSIndexPath indexPathForItem:0 inSection:0]];
     UIScrollView * svImage = (UIScrollView*)[cell viewWithTag:IMAGE_SCROLL_VIEW_TAG];
     CGRect frame = svImage.frame;
-    frame.size.height =  MAX((320-tv.contentOffset.y),0);
+    frame.size.height =  MAX((_headerHeight-tv.contentOffset.y),0);
     frame.origin.y = tv.contentOffset.y;
     svImage.frame = frame;
     svImage.zoomScale = 1 + (abs(MIN(tv.contentOffset.y,0))/320.0f);
+
 
 }
 
