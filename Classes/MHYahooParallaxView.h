@@ -35,7 +35,29 @@
 @required
 - (UIImage*) parallaxView:(MHYahooParallaxView *)parallaxView imageForIndex:(NSInteger)index;
 - (NSInteger) numberOfRows: (MHYahooParallaxView *)parallaxView;
+
+
+@optional
+- (BOOL) shouldUseCustomCell;
+- (MHYahooParallaxViewCell*) parallaxView:(MHYahooParallaxView *)parallaxView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
+
 @end
+
+@protocol MHYahooParallaxViewDelegate <NSObject>
+
+@optional
+- (void) parallaxViewDidScrollHorizontally:(MHYahooParallaxView *)parallaxView leftIndex:(NSInteger) leftIndex leftImageLeftMargin:(CGFloat) leftImageLeftMargin leftImageWidth:(CGFloat)leftImageWidth rightIndex:(NSInteger)rightIndex rightImageLeftMargin:(CGFloat)rightImageLeftMargin rightImageWidth:(CGFloat) rightImageWidth;
+
+@end
+
+
+typedef enum {
+    MHYahooParallaxViewCellTypeHorizontalDefault = 0,
+    MHYahooParallaxViewCellTypeHorizontalCustom = 1,
+    MHYahooParallaxViewCellTypeVerticalDefault = 2,
+    MHYahooParallaxViewCellTypeVerticalCustom = 3
+
+} MHYahooParallaxViewCellType;
 
 
 typedef enum {
@@ -43,9 +65,24 @@ typedef enum {
     MHYahooParallaxViewTypeVertical = 1
 } MHYahooParallaxViewType;
 
+
+@interface MHYahooParallaxViewCell : UITableViewCell
+
+@property (strong, nonatomic) UIImageView * parallaxBackgroundImageView;
+@property (nonatomic) MHYahooParallaxViewCellType parallaxCellType;
+
+
+- (id)initWithReuseIdentifier:(NSString *)reuseIdentifier withType:(MHYahooParallaxViewCellType)parallaxCellType;
+@end
+
+
 @interface MHYahooParallaxView : UIView
 
 @property (nonatomic) MHYahooParallaxViewType parallaxViewType;
 @property (nonatomic) id<MHYahooParallaxViewDatasource> datasource;
+@property (nonatomic) id<MHYahooParallaxViewDelegate> delegate;
+
+- (MHYahooParallaxViewCell*) dequeueReusableCellWithIdentifier:(NSString*)cellIdentifier;
+- (MHYahooParallaxViewCell*) cellForRowAtIndexPath:(NSIndexPath *)indexPath;
 
 @end
