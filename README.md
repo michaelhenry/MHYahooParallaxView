@@ -36,8 +36,21 @@ Designed and developed by [michaelhenry](https://github.com/michaelhenry)
 
 ### Datasource
 	
-	- (NSInteger) numberOfRows:(MHYahooParallaxView *)parallaxView;
-	- (UIImage*)parallaxView:(MHYahooParallaxView *)parallaxView imageForIndex:(NSInteger)index;
+	@required
+
+	- (NSInteger) numberOfRows: (MHYahooParallaxView *)parallaxView;
+	
+	@optional
+	
+	- (UIImage*) parallaxView:(MHYahooParallaxView *)parallaxView imageForIndex:(NSInteger)index;
+	- (BOOL) shouldUseCustomCell;
+	- (MHYahooParallaxViewCell*) parallaxView:(MHYahooParallaxView *)parallaxView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
+
+### Delegate
+
+	@optional
+	- (void) parallaxViewDidScrollHorizontally:(MHYahooParallaxView *)parallaxView leftIndex:(NSInteger) leftIndex leftImageLeftMargin:(CGFloat) leftImageLeftMargin leftImageWidth:(CGFloat)leftImageWidth rightIndex:(NSInteger)rightIndex rightImageLeftMargin:(CGFloat)rightImageLeftMargin rightImageWidth:(CGFloat) rightImageWidth;
+
 
 ### Parallax Type
 	
