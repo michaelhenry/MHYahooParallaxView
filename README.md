@@ -18,7 +18,7 @@ Parallax implementation control library inspired by Yahoo Weather and News Diges
 #### Custom ImageView Screenshot (Tsekot.net app - prototype)
 
 	- (MHYahooParallaxViewCell*) parallaxView:(MHYahooParallaxView *)parallaxView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
-	- (BOOL) shouldUseCustomCell; // Must return YES if using default (the default value is NO)
+	- (BOOL) shouldUseCustomCell; // Must return YES if using custom (the default value is NO)
 
 ![Preview](http://iamkel.s3.amazonaws.com/github/Tsekot.gif)
 
