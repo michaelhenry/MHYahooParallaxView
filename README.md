@@ -4,10 +4,21 @@ MHYahooParallaxView
 Parallax implementation control library inspired by Yahoo Weather and News Digest :)
 
 ## Screenshots
+
+#### Default
+
+	- (UIImage*) parallaxView:(MHYahooParallaxView *)parallaxView imageForIndex:(NSInteger)index;
+
+
 ![Preview](http://iamkel.s3.amazonaws.com/github/MHParallaxIntro.gif)
 ![Preview](http://iamkel.s3.amazonaws.com/github/MHParallax.gif)
 
+
+
 #### Custom ImageView Screenshot (Tsekot.net app - prototype)
+
+	- (MHYahooParallaxViewCell*) parallaxView:(MHYahooParallaxView *)parallaxView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
+	- (BOOL) shouldUseCustomCell; // Must return YES if using default (the default value is NO)
 
 ![Preview](http://iamkel.s3.amazonaws.com/github/Tsekot.gif)
 
