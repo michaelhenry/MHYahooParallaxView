@@ -22,13 +22,9 @@
 }
 
 - (void) layoutSubviews {
-
     _parallaxImageView.clipsToBounds = YES;
-    _parallaxImageView.contentMode = UIViewContentModeCenter;
     _parallaxImageView.frame = CGRectMake(0.0f, 0.0f, self.contentView.frame.size.width, self.contentView.frame.size.height);
 
-
-self.contentView.frame = CGRectMake(0.0f, 0.0f, self.frame.size.width, self.frame.size.height);
 }
 
 + (NSString*)reuseIdentifier {

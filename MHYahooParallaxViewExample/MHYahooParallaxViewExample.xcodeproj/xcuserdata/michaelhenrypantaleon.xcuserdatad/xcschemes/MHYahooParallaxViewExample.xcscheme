@@ -58,6 +58,16 @@
                ReferencedContainer = "container:MHYahooParallaxViewExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "149C955E198EC92200AFF518"
+               BuildableName = "YahooWeatherExampleTests.xctest"
+               BlueprintName = "YahooWeatherExampleTests"
+               ReferencedContainer = "container:MHYahooParallaxViewExample.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

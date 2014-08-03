@@ -64,22 +64,6 @@
 
     // leftIndex and Right Index should must be greater than or equal to zero
 
-    /*if(leftIndex >= 0){
-        MHYahooWeatherParallaxCell * leftCell = (MHYahooWeatherParallaxCell*)[parallaxView cellForItemAtIndexPath:[NSIndexPath indexPathForItem:leftIndex inSection:0]];
-
-        CGRect frame = leftCell.parallaxImageView.frame;
-        frame.origin.x = leftImageLeftMargin;
-        frame.size.width = leftImageWidth;
-        leftCell.parallaxImageView.frame = frame;
-    }
-    if(rightIndex >= 0){
-        MHYahooWeatherParallaxCell * rightCell = (MHYahooWeatherParallaxCell*)[parallaxView cellForItemAtIndexPath:[NSIndexPath indexPathForItem:rightIndex inSection:0]];
-        CGRect frame = rightCell.parallaxImageView.frame;
-        frame.origin.x = rightImageLeftMargin;
-        frame.size.width = rightImageWidth;
-        rightCell.parallaxImageView.frame = frame;
-    }*/
-
     if(leftIndex >= 0){
         MHTsekotCell * leftCell = (MHTsekotCell*)[parallaxView cellForItemAtIndexPath:[NSIndexPath indexPathForItem:leftIndex inSection:0]];
         UITableViewCell * tvCell = [leftCell.tsekotTableView cellForRowAtIndexPath:[NSIndexPath indexPathForItem:0 inSection:0]];

@@ -9,15 +9,10 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>SimpleHorizontal.xcscheme</key>
+		<key>YahooWeatherExample.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>SimpleVertical.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -28,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>1497BC57197EE3F800F2C632</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>149C9542198EC92100AFF518</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>149C955E198EC92200AFF518</key>
 		<dict>
 			<key>primary</key>
 			<true/>

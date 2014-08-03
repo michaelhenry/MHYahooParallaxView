@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1434BE291980003E00DE8257 /* MHYahooParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1434BE281980003E00DE8257 /* MHYahooParallaxView.m */; };
 		1497BC3B197EE3F800F2C632 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3A197EE3F800F2C632 /* Foundation.framework */; };
 		1497BC3D197EE3F800F2C632 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3C197EE3F800F2C632 /* CoreGraphics.framework */; };
 		1497BC3F197EE3F800F2C632 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3E197EE3F800F2C632 /* UIKit.framework */; };
@@ -22,36 +21,30 @@
 		1497BC5C197EE3F800F2C632 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3E197EE3F800F2C632 /* UIKit.framework */; };
 		1497BC64197EE3F800F2C632 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC62197EE3F800F2C632 /* InfoPlist.strings */; };
 		1497BC66197EE3F800F2C632 /* MHYahooParallaxViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1497BC65197EE3F800F2C632 /* MHYahooParallaxViewExampleTests.m */; };
-		1497BC93197EEE1200F2C632 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC8E197EEE1200F2C632 /* 0.jpg */; };
-		1497BC94197EEE1200F2C632 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC8F197EEE1200F2C632 /* 1.jpg */; };
-		1497BC95197EEE1200F2C632 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC90197EEE1200F2C632 /* 2.jpg */; };
-		1497BC96197EEE1200F2C632 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC91197EEE1200F2C632 /* 3.jpg */; };
-		1497BC97197EEE1200F2C632 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC92197EEE1200F2C632 /* 4.jpg */; };
-		14DE31E4198BFB16001391A3 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC8E197EEE1200F2C632 /* 0.jpg */; };
-		14DE31E5198BFB16001391A3 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC8F197EEE1200F2C632 /* 1.jpg */; };
-		14DE31E6198BFB16001391A3 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC90197EEE1200F2C632 /* 2.jpg */; };
-		14DE31E7198BFB16001391A3 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC91197EEE1200F2C632 /* 3.jpg */; };
-		14DE31E8198BFB16001391A3 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC92197EEE1200F2C632 /* 4.jpg */; };
-		14DE31EE198BFCB5001391A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3A197EE3F800F2C632 /* Foundation.framework */; };
-		14DE31EF198BFCB5001391A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3C197EE3F800F2C632 /* CoreGraphics.framework */; };
-		14DE31F0198BFCB5001391A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3E197EE3F800F2C632 /* UIKit.framework */; };
-		14DE31F6198BFCB5001391A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14DE31F4198BFCB5001391A3 /* InfoPlist.strings */; };
-		14DE31F8198BFCB5001391A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE31F7198BFCB5001391A3 /* main.m */; };
-		14DE31FC198BFCB5001391A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE31FB198BFCB5001391A3 /* AppDelegate.m */; };
-		14DE31FF198BFCB5001391A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DE31FD198BFCB5001391A3 /* Main.storyboard */; };
-		14DE3202198BFCB5001391A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE3201198BFCB5001391A3 /* ViewController.m */; };
-		14DE3204198BFCB5001391A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14DE3203198BFCB5001391A3 /* Images.xcassets */; };
-		14DE320A198BFCB5001391A3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC59197EE3F800F2C632 /* XCTest.framework */; };
-		14DE320B198BFCB5001391A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3A197EE3F800F2C632 /* Foundation.framework */; };
-		14DE320C198BFCB5001391A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3E197EE3F800F2C632 /* UIKit.framework */; };
-		14DE3214198BFCB5001391A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14DE3212198BFCB5001391A3 /* InfoPlist.strings */; };
-		14DE3216198BFCB5001391A3 /* SimpleVerticalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE3215198BFCB5001391A3 /* SimpleVerticalTests.m */; };
-		14DE321D198BFCDF001391A3 /* MHYahooParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1434BE281980003E00DE8257 /* MHYahooParallaxView.m */; };
-		14DE321E198BFCE4001391A3 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC8E197EEE1200F2C632 /* 0.jpg */; };
-		14DE321F198BFCE4001391A3 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC8F197EEE1200F2C632 /* 1.jpg */; };
-		14DE3220198BFCE4001391A3 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC90197EEE1200F2C632 /* 2.jpg */; };
-		14DE3221198BFCE4001391A3 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC91197EEE1200F2C632 /* 3.jpg */; };
-		14DE3222198BFCE4001391A3 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC92197EEE1200F2C632 /* 4.jpg */; };
+		149C953C198EC70C00AFF518 /* MHTsekotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 149C9539198EC70C00AFF518 /* MHTsekotCell.m */; };
+		149C953D198EC70C00AFF518 /* MHYahooWeatherParallaxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 149C953B198EC70C00AFF518 /* MHYahooWeatherParallaxCell.m */; };
+		149C9544198EC92200AFF518 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3A197EE3F800F2C632 /* Foundation.framework */; };
+		149C9545198EC92200AFF518 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3C197EE3F800F2C632 /* CoreGraphics.framework */; };
+		149C9546198EC92200AFF518 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3E197EE3F800F2C632 /* UIKit.framework */; };
+		149C954C198EC92200AFF518 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 149C954A198EC92200AFF518 /* InfoPlist.strings */; };
+		149C954E198EC92200AFF518 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 149C954D198EC92200AFF518 /* main.m */; };
+		149C9552198EC92200AFF518 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 149C9551198EC92200AFF518 /* AppDelegate.m */; };
+		149C9555198EC92200AFF518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149C9553198EC92200AFF518 /* Main.storyboard */; };
+		149C9558198EC92200AFF518 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149C9557198EC92200AFF518 /* ViewController.m */; };
+		149C955A198EC92200AFF518 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149C9559198EC92200AFF518 /* Images.xcassets */; };
+		149C9560198EC92200AFF518 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC59197EE3F800F2C632 /* XCTest.framework */; };
+		149C9561198EC92200AFF518 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3A197EE3F800F2C632 /* Foundation.framework */; };
+		149C9562198EC92200AFF518 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3E197EE3F800F2C632 /* UIKit.framework */; };
+		149C956A198EC92200AFF518 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 149C9568198EC92200AFF518 /* InfoPlist.strings */; };
+		149C956C198EC92200AFF518 /* YahooWeatherExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 149C956B198EC92200AFF518 /* YahooWeatherExampleTests.m */; };
+		149C9574198ECA7400AFF518 /* MHYahooParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F03040198EC60400F6EA24 /* MHYahooParallaxView.m */; };
+		149C9575198ECA7400AFF518 /* MHYahooParallaxCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F03042198EC60400F6EA24 /* MHYahooParallaxCollectionViewLayout.m */; };
+		149C9576198ECA7400AFF518 /* MHYahooWeatherParallaxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 149C953B198EC70C00AFF518 /* MHYahooWeatherParallaxCell.m */; };
+		149C9577198ECB1200AFF518 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC8E197EEE1200F2C632 /* 0.jpg */; };
+		149C9578198ECB1200AFF518 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC8F197EEE1200F2C632 /* 1.jpg */; };
+		149C9579198ECB1200AFF518 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC90197EEE1200F2C632 /* 2.jpg */; };
+		149C957A198ECB1200AFF518 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC91197EEE1200F2C632 /* 3.jpg */; };
+		149C957B198ECB1200AFF518 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1497BC92197EEE1200F2C632 /* 4.jpg */; };
 		14DE322A198C0028001391A3 /* header_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 14DE3228198C0028001391A3 /* header_bg.png */; };
 		14DE322B198C0028001391A3 /* header_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14DE3229198C0028001391A3 /* header_bg@2x.png */; };
 		14DE3237198C0316001391A3 /* subaru-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14DE322D198C0316001391A3 /* subaru-0.jpg */; };
@@ -70,21 +63,8 @@
 		14DE324A198C04FF001391A3 /* content-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14DE3244198C04FF001391A3 /* content-2@2x.png */; };
 		14DE324B198C04FF001391A3 /* content-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 14DE3245198C04FF001391A3 /* content-3.png */; };
 		14DE324C198C04FF001391A3 /* content-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14DE3246198C04FF001391A3 /* content-3@2x.png */; };
-		14FC483D198BF4540084C7DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3A197EE3F800F2C632 /* Foundation.framework */; };
-		14FC483E198BF4540084C7DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3C197EE3F800F2C632 /* CoreGraphics.framework */; };
-		14FC483F198BF4540084C7DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3E197EE3F800F2C632 /* UIKit.framework */; };
-		14FC4845198BF4540084C7DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14FC4843198BF4540084C7DC /* InfoPlist.strings */; };
-		14FC4847198BF4540084C7DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FC4846198BF4540084C7DC /* main.m */; };
-		14FC484B198BF4540084C7DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FC484A198BF4540084C7DC /* AppDelegate.m */; };
-		14FC484E198BF4540084C7DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14FC484C198BF4540084C7DC /* Main.storyboard */; };
-		14FC4851198BF4540084C7DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FC4850198BF4540084C7DC /* ViewController.m */; };
-		14FC4853198BF4540084C7DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14FC4852198BF4540084C7DC /* Images.xcassets */; };
-		14FC4859198BF4540084C7DC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC59197EE3F800F2C632 /* XCTest.framework */; };
-		14FC485A198BF4540084C7DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3A197EE3F800F2C632 /* Foundation.framework */; };
-		14FC485B198BF4540084C7DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1497BC3E197EE3F800F2C632 /* UIKit.framework */; };
-		14FC4863198BF4540084C7DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14FC4861198BF4540084C7DC /* InfoPlist.strings */; };
-		14FC4865198BF4540084C7DC /* SimpleHorizontalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FC4864198BF4540084C7DC /* SimpleHorizontalTests.m */; };
-		14FC486D198BF60D0084C7DC /* MHYahooParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1434BE281980003E00DE8257 /* MHYahooParallaxView.m */; };
+		14F03044198EC60500F6EA24 /* MHYahooParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F03040198EC60400F6EA24 /* MHYahooParallaxView.m */; };
+		14F03045198EC60500F6EA24 /* MHYahooParallaxCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F03042198EC60400F6EA24 /* MHYahooParallaxCollectionViewLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,25 +75,16 @@
 			remoteGlobalIDString = 1497BC36197EE3F800F2C632;
 			remoteInfo = MHYahooParallaxViewExample;
 		};
-		14DE320D198BFCB5001391A3 /* PBXContainerItemProxy */ = {
+		149C9563198EC92200AFF518 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1497BC2F197EE3F800F2C632 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 14DE31EC198BFCB5001391A3;
-			remoteInfo = SimpleVertical;
-		};
-		14FC485C198BF4540084C7DC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1497BC2F197EE3F800F2C632 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 14FC483B198BF4540084C7DC;
-			remoteInfo = SimpleHorizontal;
+			remoteGlobalIDString = 149C9542198EC92100AFF518;
+			remoteInfo = YahooWeatherExample;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1434BE271980003E00DE8257 /* MHYahooParallaxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHYahooParallaxView.h; sourceTree = "<group>"; };
-		1434BE281980003E00DE8257 /* MHYahooParallaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHYahooParallaxView.m; sourceTree = "<group>"; };
 		1497BC37197EE3F800F2C632 /* MHYahooParallaxViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHYahooParallaxViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1497BC3A197EE3F800F2C632 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1497BC3C197EE3F800F2C632 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -138,21 +109,25 @@
 		1497BC90197EEE1200F2C632 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		1497BC91197EEE1200F2C632 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		1497BC92197EEE1200F2C632 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
-		14DE31ED198BFCB5001391A3 /* SimpleVertical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleVertical.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		14DE31F3198BFCB5001391A3 /* SimpleVertical-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleVertical-Info.plist"; sourceTree = "<group>"; };
-		14DE31F5198BFCB5001391A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		14DE31F7198BFCB5001391A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		14DE31F9198BFCB5001391A3 /* SimpleVertical-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleVertical-Prefix.pch"; sourceTree = "<group>"; };
-		14DE31FA198BFCB5001391A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		14DE31FB198BFCB5001391A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		14DE31FE198BFCB5001391A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		14DE3200198BFCB5001391A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		14DE3201198BFCB5001391A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		14DE3203198BFCB5001391A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		14DE3209198BFCB5001391A3 /* SimpleVerticalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleVerticalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		14DE3211198BFCB5001391A3 /* SimpleVerticalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleVerticalTests-Info.plist"; sourceTree = "<group>"; };
-		14DE3213198BFCB5001391A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		14DE3215198BFCB5001391A3 /* SimpleVerticalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleVerticalTests.m; sourceTree = "<group>"; };
+		149C9538198EC70C00AFF518 /* MHTsekotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHTsekotCell.h; sourceTree = "<group>"; };
+		149C9539198EC70C00AFF518 /* MHTsekotCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHTsekotCell.m; sourceTree = "<group>"; };
+		149C953A198EC70C00AFF518 /* MHYahooWeatherParallaxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHYahooWeatherParallaxCell.h; path = ../MHYahooParallaxViewExample/MHYahooWeatherParallaxCell.h; sourceTree = "<group>"; };
+		149C953B198EC70C00AFF518 /* MHYahooWeatherParallaxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHYahooWeatherParallaxCell.m; path = ../MHYahooParallaxViewExample/MHYahooWeatherParallaxCell.m; sourceTree = "<group>"; };
+		149C9543198EC92100AFF518 /* YahooWeatherExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YahooWeatherExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		149C9549198EC92200AFF518 /* YahooWeatherExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YahooWeatherExample-Info.plist"; sourceTree = "<group>"; };
+		149C954B198EC92200AFF518 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		149C954D198EC92200AFF518 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		149C954F198EC92200AFF518 /* YahooWeatherExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YahooWeatherExample-Prefix.pch"; sourceTree = "<group>"; };
+		149C9550198EC92200AFF518 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		149C9551198EC92200AFF518 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		149C9554198EC92200AFF518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		149C9556198EC92200AFF518 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		149C9557198EC92200AFF518 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		149C9559198EC92200AFF518 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		149C955F198EC92200AFF518 /* YahooWeatherExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YahooWeatherExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		149C9567198EC92200AFF518 /* YahooWeatherExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YahooWeatherExampleTests-Info.plist"; sourceTree = "<group>"; };
+		149C9569198EC92200AFF518 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		149C956B198EC92200AFF518 /* YahooWeatherExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YahooWeatherExampleTests.m; sourceTree = "<group>"; };
 		14DE3228198C0028001391A3 /* header_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header_bg.png; sourceTree = "<group>"; };
 		14DE3229198C0028001391A3 /* header_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header_bg@2x.png"; sourceTree = "<group>"; };
 		14DE322D198C0316001391A3 /* subaru-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "subaru-0.jpg"; sourceTree = "<group>"; };
@@ -171,21 +146,10 @@
 		14DE3244198C04FF001391A3 /* content-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content-2@2x.png"; sourceTree = "<group>"; };
 		14DE3245198C04FF001391A3 /* content-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content-3.png"; sourceTree = "<group>"; };
 		14DE3246198C04FF001391A3 /* content-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content-3@2x.png"; sourceTree = "<group>"; };
-		14FC483C198BF4540084C7DC /* SimpleHorizontal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleHorizontal.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		14FC4842198BF4540084C7DC /* SimpleHorizontal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleHorizontal-Info.plist"; sourceTree = "<group>"; };
-		14FC4844198BF4540084C7DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		14FC4846198BF4540084C7DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		14FC4848198BF4540084C7DC /* SimpleHorizontal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleHorizontal-Prefix.pch"; sourceTree = "<group>"; };
-		14FC4849198BF4540084C7DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		14FC484A198BF4540084C7DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		14FC484D198BF4540084C7DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		14FC484F198BF4540084C7DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		14FC4850198BF4540084C7DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		14FC4852198BF4540084C7DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		14FC4858198BF4540084C7DC /* SimpleHorizontalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleHorizontalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		14FC4860198BF4540084C7DC /* SimpleHorizontalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleHorizontalTests-Info.plist"; sourceTree = "<group>"; };
-		14FC4862198BF4540084C7DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		14FC4864198BF4540084C7DC /* SimpleHorizontalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleHorizontalTests.m; sourceTree = "<group>"; };
+		14F03040198EC60400F6EA24 /* MHYahooParallaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHYahooParallaxView.m; sourceTree = "<group>"; };
+		14F03041198EC60400F6EA24 /* MHYahooParallaxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHYahooParallaxView.h; sourceTree = "<group>"; };
+		14F03042198EC60400F6EA24 /* MHYahooParallaxCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHYahooParallaxCollectionViewLayout.m; sourceTree = "<group>"; };
+		14F03043198EC60400F6EA24 /* MHYahooParallaxCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHYahooParallaxCollectionViewLayout.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,43 +173,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14DE31EA198BFCB5001391A3 /* Frameworks */ = {
+		149C9540198EC92100AFF518 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14DE31EF198BFCB5001391A3 /* CoreGraphics.framework in Frameworks */,
-				14DE31F0198BFCB5001391A3 /* UIKit.framework in Frameworks */,
-				14DE31EE198BFCB5001391A3 /* Foundation.framework in Frameworks */,
+				149C9545198EC92200AFF518 /* CoreGraphics.framework in Frameworks */,
+				149C9546198EC92200AFF518 /* UIKit.framework in Frameworks */,
+				149C9544198EC92200AFF518 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14DE3206198BFCB5001391A3 /* Frameworks */ = {
+		149C955C198EC92200AFF518 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14DE320A198BFCB5001391A3 /* XCTest.framework in Frameworks */,
-				14DE320C198BFCB5001391A3 /* UIKit.framework in Frameworks */,
-				14DE320B198BFCB5001391A3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14FC4839198BF4540084C7DC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14FC483E198BF4540084C7DC /* CoreGraphics.framework in Frameworks */,
-				14FC483F198BF4540084C7DC /* UIKit.framework in Frameworks */,
-				14FC483D198BF4540084C7DC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14FC4855198BF4540084C7DC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14FC4859198BF4540084C7DC /* XCTest.framework in Frameworks */,
-				14FC485B198BF4540084C7DC /* UIKit.framework in Frameworks */,
-				14FC485A198BF4540084C7DC /* Foundation.framework in Frameworks */,
+				149C9560198EC92200AFF518 /* XCTest.framework in Frameworks */,
+				149C9562198EC92200AFF518 /* UIKit.framework in Frameworks */,
+				149C9561198EC92200AFF518 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +199,10 @@
 		1434BE261980003E00DE8257 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1434BE271980003E00DE8257 /* MHYahooParallaxView.h */,
-				1434BE281980003E00DE8257 /* MHYahooParallaxView.m */,
+				14F03040198EC60400F6EA24 /* MHYahooParallaxView.m */,
+				14F03041198EC60400F6EA24 /* MHYahooParallaxView.h */,
+				14F03042198EC60400F6EA24 /* MHYahooParallaxCollectionViewLayout.m */,
+				14F03043198EC60400F6EA24 /* MHYahooParallaxCollectionViewLayout.h */,
 			);
 			name = Classes;
 			path = ../../Classes;
@@ -267,10 +213,8 @@
 			children = (
 				1497BC40197EE3F800F2C632 /* MHYahooParallaxViewExample */,
 				1497BC5F197EE3F800F2C632 /* MHYahooParallaxViewExampleTests */,
-				14FC4840198BF4540084C7DC /* SimpleHorizontal */,
-				14FC485E198BF4540084C7DC /* SimpleHorizontalTests */,
-				14DE31F1198BFCB5001391A3 /* SimpleVertical */,
-				14DE320F198BFCB5001391A3 /* SimpleVerticalTests */,
+				149C9547198EC92200AFF518 /* YahooWeatherExample */,
+				149C9565198EC92200AFF518 /* YahooWeatherExampleTests */,
 				1497BC39197EE3F800F2C632 /* Frameworks */,
 				1497BC38197EE3F800F2C632 /* Products */,
 			);
@@ -281,10 +225,8 @@
 			children = (
 				1497BC37197EE3F800F2C632 /* MHYahooParallaxViewExample.app */,
 				1497BC58197EE3F800F2C632 /* MHYahooParallaxViewExampleTests.xctest */,
-				14FC483C198BF4540084C7DC /* SimpleHorizontal.app */,
-				14FC4858198BF4540084C7DC /* SimpleHorizontalTests.xctest */,
-				14DE31ED198BFCB5001391A3 /* SimpleVertical.app */,
-				14DE3209198BFCB5001391A3 /* SimpleVerticalTests.xctest */,
+				149C9543198EC92100AFF518 /* YahooWeatherExample.app */,
+				149C955F198EC92200AFF518 /* YahooWeatherExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -303,9 +245,9 @@
 		1497BC40197EE3F800F2C632 /* MHYahooParallaxViewExample */ = {
 			isa = PBXGroup;
 			children = (
-				14DE3223198BFFDC001391A3 /* Tsekot */,
+				149C953E198EC78200AFF518 /* Images */,
+				149C9537198EC6F900AFF518 /* CustomCells */,
 				1434BE261980003E00DE8257 /* Classes */,
-				1497BC8D197EEE1200F2C632 /* NATURE */,
 				1497BC49197EE3F800F2C632 /* AppDelegate.h */,
 				1497BC4A197EE3F800F2C632 /* AppDelegate.m */,
 				1497BC4C197EE3F800F2C632 /* Main.storyboard */,
@@ -346,7 +288,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1497BC8D197EEE1200F2C632 /* NATURE */ = {
+		1497BC8D197EEE1200F2C632 /* Nature */ = {
 			isa = PBXGroup;
 			children = (
 				1497BC8E197EEE1200F2C632 /* 0.jpg */,
@@ -355,50 +297,79 @@
 				1497BC91197EEE1200F2C632 /* 3.jpg */,
 				1497BC92197EEE1200F2C632 /* 4.jpg */,
 			);
-			path = NATURE;
+			name = Nature;
+			path = ../MHYahooParallaxViewExample/NATURE;
 			sourceTree = "<group>";
 		};
-		14DE31F1198BFCB5001391A3 /* SimpleVertical */ = {
+		149C9537198EC6F900AFF518 /* CustomCells */ = {
 			isa = PBXGroup;
 			children = (
-				14DE31FA198BFCB5001391A3 /* AppDelegate.h */,
-				14DE31FB198BFCB5001391A3 /* AppDelegate.m */,
-				14DE31FD198BFCB5001391A3 /* Main.storyboard */,
-				14DE3200198BFCB5001391A3 /* ViewController.h */,
-				14DE3201198BFCB5001391A3 /* ViewController.m */,
-				14DE3203198BFCB5001391A3 /* Images.xcassets */,
-				14DE31F2198BFCB5001391A3 /* Supporting Files */,
+				149C9538198EC70C00AFF518 /* MHTsekotCell.h */,
+				149C9539198EC70C00AFF518 /* MHTsekotCell.m */,
 			);
-			path = SimpleVertical;
+			name = CustomCells;
 			sourceTree = "<group>";
 		};
-		14DE31F2198BFCB5001391A3 /* Supporting Files */ = {
+		149C953E198EC78200AFF518 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				14DE31F3198BFCB5001391A3 /* SimpleVertical-Info.plist */,
-				14DE31F4198BFCB5001391A3 /* InfoPlist.strings */,
-				14DE31F7198BFCB5001391A3 /* main.m */,
-				14DE31F9198BFCB5001391A3 /* SimpleVertical-Prefix.pch */,
+				14DE3223198BFFDC001391A3 /* Tsekot */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		149C9547198EC92200AFF518 /* YahooWeatherExample */ = {
+			isa = PBXGroup;
+			children = (
+				149C9573198EC9F000AFF518 /* CustomCell for YahooWeather Example */,
+				1497BC8D197EEE1200F2C632 /* Nature */,
+				149C9550198EC92200AFF518 /* AppDelegate.h */,
+				149C9551198EC92200AFF518 /* AppDelegate.m */,
+				149C9553198EC92200AFF518 /* Main.storyboard */,
+				149C9556198EC92200AFF518 /* ViewController.h */,
+				149C9557198EC92200AFF518 /* ViewController.m */,
+				149C9559198EC92200AFF518 /* Images.xcassets */,
+				149C9548198EC92200AFF518 /* Supporting Files */,
+			);
+			path = YahooWeatherExample;
+			sourceTree = "<group>";
+		};
+		149C9548198EC92200AFF518 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				149C9549198EC92200AFF518 /* YahooWeatherExample-Info.plist */,
+				149C954A198EC92200AFF518 /* InfoPlist.strings */,
+				149C954D198EC92200AFF518 /* main.m */,
+				149C954F198EC92200AFF518 /* YahooWeatherExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		14DE320F198BFCB5001391A3 /* SimpleVerticalTests */ = {
+		149C9565198EC92200AFF518 /* YahooWeatherExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				14DE3215198BFCB5001391A3 /* SimpleVerticalTests.m */,
-				14DE3210198BFCB5001391A3 /* Supporting Files */,
+				149C956B198EC92200AFF518 /* YahooWeatherExampleTests.m */,
+				149C9566198EC92200AFF518 /* Supporting Files */,
 			);
-			path = SimpleVerticalTests;
+			path = YahooWeatherExampleTests;
 			sourceTree = "<group>";
 		};
-		14DE3210198BFCB5001391A3 /* Supporting Files */ = {
+		149C9566198EC92200AFF518 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				14DE3211198BFCB5001391A3 /* SimpleVerticalTests-Info.plist */,
-				14DE3212198BFCB5001391A3 /* InfoPlist.strings */,
+				149C9567198EC92200AFF518 /* YahooWeatherExampleTests-Info.plist */,
+				149C9568198EC92200AFF518 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		149C9573198EC9F000AFF518 /* CustomCell for YahooWeather Example */ = {
+			isa = PBXGroup;
+			children = (
+				149C953A198EC70C00AFF518 /* MHYahooWeatherParallaxCell.h */,
+				149C953B198EC70C00AFF518 /* MHYahooWeatherParallaxCell.m */,
+			);
+			name = "CustomCell for YahooWeather Example";
 			sourceTree = "<group>";
 		};
 		14DE3223198BFFDC001391A3 /* Tsekot */ = {
@@ -432,49 +403,6 @@
 				14DE3236198C0316001391A3 /* subaru-9.jpg */,
 			);
 			path = BRZ;
-			sourceTree = "<group>";
-		};
-		14FC4840198BF4540084C7DC /* SimpleHorizontal */ = {
-			isa = PBXGroup;
-			children = (
-				14FC4849198BF4540084C7DC /* AppDelegate.h */,
-				14FC484A198BF4540084C7DC /* AppDelegate.m */,
-				14FC484C198BF4540084C7DC /* Main.storyboard */,
-				14FC484F198BF4540084C7DC /* ViewController.h */,
-				14FC4850198BF4540084C7DC /* ViewController.m */,
-				14FC4852198BF4540084C7DC /* Images.xcassets */,
-				14FC4841198BF4540084C7DC /* Supporting Files */,
-			);
-			path = SimpleHorizontal;
-			sourceTree = "<group>";
-		};
-		14FC4841198BF4540084C7DC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				14FC4842198BF4540084C7DC /* SimpleHorizontal-Info.plist */,
-				14FC4843198BF4540084C7DC /* InfoPlist.strings */,
-				14FC4846198BF4540084C7DC /* main.m */,
-				14FC4848198BF4540084C7DC /* SimpleHorizontal-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		14FC485E198BF4540084C7DC /* SimpleHorizontalTests */ = {
-			isa = PBXGroup;
-			children = (
-				14FC4864198BF4540084C7DC /* SimpleHorizontalTests.m */,
-				14FC485F198BF4540084C7DC /* Supporting Files */,
-			);
-			path = SimpleHorizontalTests;
-			sourceTree = "<group>";
-		};
-		14FC485F198BF4540084C7DC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				14FC4860198BF4540084C7DC /* SimpleHorizontalTests-Info.plist */,
-				14FC4861198BF4540084C7DC /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -515,74 +443,39 @@
 			productReference = 1497BC58197EE3F800F2C632 /* MHYahooParallaxViewExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		14DE31EC198BFCB5001391A3 /* SimpleVertical */ = {
+		149C9542198EC92100AFF518 /* YahooWeatherExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14DE3217198BFCB5001391A3 /* Build configuration list for PBXNativeTarget "SimpleVertical" */;
+			buildConfigurationList = 149C956D198EC92200AFF518 /* Build configuration list for PBXNativeTarget "YahooWeatherExample" */;
 			buildPhases = (
-				14DE31E9198BFCB5001391A3 /* Sources */,
-				14DE31EA198BFCB5001391A3 /* Frameworks */,
-				14DE31EB198BFCB5001391A3 /* Resources */,
+				149C953F198EC92100AFF518 /* Sources */,
+				149C9540198EC92100AFF518 /* Frameworks */,
+				149C9541198EC92100AFF518 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SimpleVertical;
-			productName = SimpleVertical;
-			productReference = 14DE31ED198BFCB5001391A3 /* SimpleVertical.app */;
+			name = YahooWeatherExample;
+			productName = YahooWeatherExample;
+			productReference = 149C9543198EC92100AFF518 /* YahooWeatherExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		14DE3208198BFCB5001391A3 /* SimpleVerticalTests */ = {
+		149C955E198EC92200AFF518 /* YahooWeatherExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14DE321A198BFCB5001391A3 /* Build configuration list for PBXNativeTarget "SimpleVerticalTests" */;
+			buildConfigurationList = 149C9570198EC92200AFF518 /* Build configuration list for PBXNativeTarget "YahooWeatherExampleTests" */;
 			buildPhases = (
-				14DE3205198BFCB5001391A3 /* Sources */,
-				14DE3206198BFCB5001391A3 /* Frameworks */,
-				14DE3207198BFCB5001391A3 /* Resources */,
+				149C955B198EC92200AFF518 /* Sources */,
+				149C955C198EC92200AFF518 /* Frameworks */,
+				149C955D198EC92200AFF518 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				14DE320E198BFCB5001391A3 /* PBXTargetDependency */,
+				149C9564198EC92200AFF518 /* PBXTargetDependency */,
 			);
-			name = SimpleVerticalTests;
-			productName = SimpleVerticalTests;
-			productReference = 14DE3209198BFCB5001391A3 /* SimpleVerticalTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		14FC483B198BF4540084C7DC /* SimpleHorizontal */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 14FC486A198BF4550084C7DC /* Build configuration list for PBXNativeTarget "SimpleHorizontal" */;
-			buildPhases = (
-				14FC4838198BF4540084C7DC /* Sources */,
-				14FC4839198BF4540084C7DC /* Frameworks */,
-				14FC483A198BF4540084C7DC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SimpleHorizontal;
-			productName = SimpleHorizontal;
-			productReference = 14FC483C198BF4540084C7DC /* SimpleHorizontal.app */;
-			productType = "com.apple.product-type.application";
-		};
-		14FC4857198BF4540084C7DC /* SimpleHorizontalTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 14FC486B198BF4550084C7DC /* Build configuration list for PBXNativeTarget "SimpleHorizontalTests" */;
-			buildPhases = (
-				14FC4854198BF4540084C7DC /* Sources */,
-				14FC4855198BF4540084C7DC /* Frameworks */,
-				14FC4856198BF4540084C7DC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				14FC485D198BF4540084C7DC /* PBXTargetDependency */,
-			);
-			name = SimpleHorizontalTests;
-			productName = SimpleHorizontalTests;
-			productReference = 14FC4858198BF4540084C7DC /* SimpleHorizontalTests.xctest */;
+			name = YahooWeatherExampleTests;
+			productName = YahooWeatherExampleTests;
+			productReference = 149C955F198EC92200AFF518 /* YahooWeatherExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -597,10 +490,7 @@
 					1497BC57197EE3F800F2C632 = {
 						TestTargetID = 1497BC36197EE3F800F2C632;
 					};
-					14DE3208198BFCB5001391A3 = {
-						TestTargetID = 1497BC36197EE3F800F2C632;
-					};
-					14FC4857198BF4540084C7DC = {
+					149C955E198EC92200AFF518 = {
 						TestTargetID = 1497BC36197EE3F800F2C632;
 					};
 				};
@@ -620,10 +510,8 @@
 			targets = (
 				1497BC36197EE3F800F2C632 /* MHYahooParallaxViewExample */,
 				1497BC57197EE3F800F2C632 /* MHYahooParallaxViewExampleTests */,
-				14FC483B198BF4540084C7DC /* SimpleHorizontal */,
-				14FC4857198BF4540084C7DC /* SimpleHorizontalTests */,
-				14DE31EC198BFCB5001391A3 /* SimpleVertical */,
-				14DE3208198BFCB5001391A3 /* SimpleVerticalTests */,
+				149C9542198EC92100AFF518 /* YahooWeatherExample */,
+				149C955E198EC92200AFF518 /* YahooWeatherExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -633,13 +521,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1497BC97197EEE1200F2C632 /* 4.jpg in Resources */,
-				1497BC95197EEE1200F2C632 /* 2.jpg in Resources */,
 				14DE3249198C04FF001391A3 /* content-2.png in Resources */,
 				14DE324B198C04FF001391A3 /* content-3.png in Resources */,
 				14DE323F198C0316001391A3 /* subaru-8.jpg in Resources */,
 				14DE323B198C0316001391A3 /* subaru-4.jpg in Resources */,
-				1497BC93197EEE1200F2C632 /* 0.jpg in Resources */,
 				14DE322A198C0028001391A3 /* header_bg.png in Resources */,
 				14DE323E198C0316001391A3 /* subaru-7.jpg in Resources */,
 				14DE3240198C0316001391A3 /* subaru-9.jpg in Resources */,
@@ -649,8 +534,6 @@
 				1497BC4E197EE3F800F2C632 /* Main.storyboard in Resources */,
 				14DE3247198C04FF001391A3 /* content-1.png in Resources */,
 				14DE3239198C0316001391A3 /* subaru-2.jpg in Resources */,
-				1497BC96197EEE1200F2C632 /* 3.jpg in Resources */,
-				1497BC94197EEE1200F2C632 /* 1.jpg in Resources */,
 				14DE3237198C0316001391A3 /* subaru-0.jpg in Resources */,
 				14DE3238198C0316001391A3 /* subaru-1.jpg in Resources */,
 				14DE323A198C0316001391A3 /* subaru-3.jpg in Resources */,
@@ -670,49 +553,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14DE31EB198BFCB5001391A3 /* Resources */ = {
+		149C9541198EC92100AFF518 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14DE321E198BFCE4001391A3 /* 0.jpg in Resources */,
-				14DE321F198BFCE4001391A3 /* 1.jpg in Resources */,
-				14DE3220198BFCE4001391A3 /* 2.jpg in Resources */,
-				14DE3221198BFCE4001391A3 /* 3.jpg in Resources */,
-				14DE3222198BFCE4001391A3 /* 4.jpg in Resources */,
-				14DE3204198BFCB5001391A3 /* Images.xcassets in Resources */,
-				14DE31F6198BFCB5001391A3 /* InfoPlist.strings in Resources */,
-				14DE31FF198BFCB5001391A3 /* Main.storyboard in Resources */,
+				149C9577198ECB1200AFF518 /* 0.jpg in Resources */,
+				149C9578198ECB1200AFF518 /* 1.jpg in Resources */,
+				149C9579198ECB1200AFF518 /* 2.jpg in Resources */,
+				149C957A198ECB1200AFF518 /* 3.jpg in Resources */,
+				149C957B198ECB1200AFF518 /* 4.jpg in Resources */,
+				149C955A198EC92200AFF518 /* Images.xcassets in Resources */,
+				149C954C198EC92200AFF518 /* InfoPlist.strings in Resources */,
+				149C9555198EC92200AFF518 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14DE3207198BFCB5001391A3 /* Resources */ = {
+		149C955D198EC92200AFF518 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14DE3214198BFCB5001391A3 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14FC483A198BF4540084C7DC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14DE31E4198BFB16001391A3 /* 0.jpg in Resources */,
-				14DE31E5198BFB16001391A3 /* 1.jpg in Resources */,
-				14DE31E6198BFB16001391A3 /* 2.jpg in Resources */,
-				14DE31E7198BFB16001391A3 /* 3.jpg in Resources */,
-				14DE31E8198BFB16001391A3 /* 4.jpg in Resources */,
-				14FC4853198BF4540084C7DC /* Images.xcassets in Resources */,
-				14FC4845198BF4540084C7DC /* InfoPlist.strings in Resources */,
-				14FC484E198BF4540084C7DC /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14FC4856198BF4540084C7DC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14FC4863198BF4540084C7DC /* InfoPlist.strings in Resources */,
+				149C956A198EC92200AFF518 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,9 +584,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1497BC51197EE3F800F2C632 /* ViewController.m in Sources */,
-				1434BE291980003E00DE8257 /* MHYahooParallaxView.m in Sources */,
+				14F03044198EC60500F6EA24 /* MHYahooParallaxView.m in Sources */,
+				149C953C198EC70C00AFF518 /* MHTsekotCell.m in Sources */,
 				1497BC4B197EE3F800F2C632 /* AppDelegate.m in Sources */,
+				149C953D198EC70C00AFF518 /* MHYahooWeatherParallaxCell.m in Sources */,
 				1497BC47197EE3F800F2C632 /* main.m in Sources */,
+				14F03045198EC60500F6EA24 /* MHYahooParallaxCollectionViewLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -738,41 +601,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14DE31E9198BFCB5001391A3 /* Sources */ = {
+		149C953F198EC92100AFF518 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14DE321D198BFCDF001391A3 /* MHYahooParallaxView.m in Sources */,
-				14DE3202198BFCB5001391A3 /* ViewController.m in Sources */,
-				14DE31FC198BFCB5001391A3 /* AppDelegate.m in Sources */,
-				14DE31F8198BFCB5001391A3 /* main.m in Sources */,
+				149C9574198ECA7400AFF518 /* MHYahooParallaxView.m in Sources */,
+				149C9575198ECA7400AFF518 /* MHYahooParallaxCollectionViewLayout.m in Sources */,
+				149C9576198ECA7400AFF518 /* MHYahooWeatherParallaxCell.m in Sources */,
+				149C9558198EC92200AFF518 /* ViewController.m in Sources */,
+				149C9552198EC92200AFF518 /* AppDelegate.m in Sources */,
+				149C954E198EC92200AFF518 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14DE3205198BFCB5001391A3 /* Sources */ = {
+		149C955B198EC92200AFF518 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14DE3216198BFCB5001391A3 /* SimpleVerticalTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14FC4838198BF4540084C7DC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14FC486D198BF60D0084C7DC /* MHYahooParallaxView.m in Sources */,
-				14FC4851198BF4540084C7DC /* ViewController.m in Sources */,
-				14FC484B198BF4540084C7DC /* AppDelegate.m in Sources */,
-				14FC4847198BF4540084C7DC /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14FC4854198BF4540084C7DC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14FC4865198BF4540084C7DC /* SimpleHorizontalTests.m in Sources */,
+				149C956C198EC92200AFF518 /* YahooWeatherExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -784,15 +630,10 @@
 			target = 1497BC36197EE3F800F2C632 /* MHYahooParallaxViewExample */;
 			targetProxy = 1497BC5D197EE3F800F2C632 /* PBXContainerItemProxy */;
 		};
-		14DE320E198BFCB5001391A3 /* PBXTargetDependency */ = {
+		149C9564198EC92200AFF518 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 14DE31EC198BFCB5001391A3 /* SimpleVertical */;
-			targetProxy = 14DE320D198BFCB5001391A3 /* PBXContainerItemProxy */;
-		};
-		14FC485D198BF4540084C7DC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 14FC483B198BF4540084C7DC /* SimpleHorizontal */;
-			targetProxy = 14FC485C198BF4540084C7DC /* PBXContainerItemProxy */;
+			target = 149C9542198EC92100AFF518 /* YahooWeatherExample */;
+			targetProxy = 149C9563198EC92200AFF518 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -821,50 +662,26 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		14DE31F4198BFCB5001391A3 /* InfoPlist.strings */ = {
+		149C954A198EC92200AFF518 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				14DE31F5198BFCB5001391A3 /* en */,
+				149C954B198EC92200AFF518 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		14DE31FD198BFCB5001391A3 /* Main.storyboard */ = {
+		149C9553198EC92200AFF518 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				14DE31FE198BFCB5001391A3 /* Base */,
+				149C9554198EC92200AFF518 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		14DE3212198BFCB5001391A3 /* InfoPlist.strings */ = {
+		149C9568198EC92200AFF518 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				14DE3213198BFCB5001391A3 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		14FC4843198BF4540084C7DC /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				14FC4844198BF4540084C7DC /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		14FC484C198BF4540084C7DC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				14FC484D198BF4540084C7DC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		14FC4861198BF4540084C7DC /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				14FC4862198BF4540084C7DC /* en */,
+				149C9569198EC92200AFF518 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1008,37 +825,37 @@
 			};
 			name = Release;
 		};
-		14DE3218198BFCB5001391A3 /* Debug */ = {
+		149C956E198EC92200AFF518 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SimpleVertical/SimpleVertical-Prefix.pch";
+				GCC_PREFIX_HEADER = "YahooWeatherExample/YahooWeatherExample-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "SimpleVertical/SimpleVertical-Info.plist";
+				INFOPLIST_FILE = "YahooWeatherExample/YahooWeatherExample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		14DE3219198BFCB5001391A3 /* Release */ = {
+		149C956F198EC92200AFF518 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SimpleVertical/SimpleVertical-Prefix.pch";
-				INFOPLIST_FILE = "SimpleVertical/SimpleVertical-Info.plist";
+				GCC_PREFIX_HEADER = "YahooWeatherExample/YahooWeatherExample-Prefix.pch";
+				INFOPLIST_FILE = "YahooWeatherExample/YahooWeatherExample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		14DE321B198BFCB5001391A3 /* Debug */ = {
+		149C9571198EC92200AFF518 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MHYahooParallaxViewExample.app/MHYahooParallaxViewExample";
@@ -1048,19 +865,19 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SimpleVertical/SimpleVertical-Prefix.pch";
+				GCC_PREFIX_HEADER = "YahooWeatherExample/YahooWeatherExample-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "SimpleVerticalTests/SimpleVerticalTests-Info.plist";
+				INFOPLIST_FILE = "YahooWeatherExampleTests/YahooWeatherExampleTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		14DE321C198BFCB5001391A3 /* Release */ = {
+		149C9572198EC92200AFF518 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MHYahooParallaxViewExample.app/MHYahooParallaxViewExample";
@@ -1070,78 +887,8 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SimpleVertical/SimpleVertical-Prefix.pch";
-				INFOPLIST_FILE = "SimpleVerticalTests/SimpleVerticalTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
-		14FC4866198BF4550084C7DC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SimpleHorizontal/SimpleHorizontal-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "SimpleHorizontal/SimpleHorizontal-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		14FC4867198BF4550084C7DC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SimpleHorizontal/SimpleHorizontal-Prefix.pch";
-				INFOPLIST_FILE = "SimpleHorizontal/SimpleHorizontal-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		14FC4868198BF4550084C7DC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MHYahooParallaxViewExample.app/MHYahooParallaxViewExample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SimpleHorizontal/SimpleHorizontal-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "SimpleHorizontalTests/SimpleHorizontalTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		14FC4869198BF4550084C7DC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MHYahooParallaxViewExample.app/MHYahooParallaxViewExample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SimpleHorizontal/SimpleHorizontal-Prefix.pch";
-				INFOPLIST_FILE = "SimpleHorizontalTests/SimpleHorizontalTests-Info.plist";
+				GCC_PREFIX_HEADER = "YahooWeatherExample/YahooWeatherExample-Prefix.pch";
+				INFOPLIST_FILE = "YahooWeatherExampleTests/YahooWeatherExampleTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -1178,39 +925,21 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14DE3217198BFCB5001391A3 /* Build configuration list for PBXNativeTarget "SimpleVertical" */ = {
+		149C956D198EC92200AFF518 /* Build configuration list for PBXNativeTarget "YahooWeatherExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14DE3218198BFCB5001391A3 /* Debug */,
-				14DE3219198BFCB5001391A3 /* Release */,
+				149C956E198EC92200AFF518 /* Debug */,
+				149C956F198EC92200AFF518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		14DE321A198BFCB5001391A3 /* Build configuration list for PBXNativeTarget "SimpleVerticalTests" */ = {
+		149C9570198EC92200AFF518 /* Build configuration list for PBXNativeTarget "YahooWeatherExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14DE321B198BFCB5001391A3 /* Debug */,
-				14DE321C198BFCB5001391A3 /* Release */,
+				149C9571198EC92200AFF518 /* Debug */,
+				149C9572198EC92200AFF518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		14FC486A198BF4550084C7DC /* Build configuration list for PBXNativeTarget "SimpleHorizontal" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				14FC4866198BF4550084C7DC /* Debug */,
-				14FC4867198BF4550084C7DC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		14FC486B198BF4550084C7DC /* Build configuration list for PBXNativeTarget "SimpleHorizontalTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				14FC4868198BF4550084C7DC /* Debug */,
-				14FC4869198BF4550084C7DC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
