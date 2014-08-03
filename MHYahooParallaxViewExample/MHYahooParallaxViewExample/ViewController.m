@@ -13,7 +13,6 @@
 #import "ViewController.h"
 #import "MHYahooParallaxView.h"
 #import "MHTsekotCell.h"
-//#import "MHYahooWeatherParallaxCell.h"
 
 @interface ViewController ()<MHYahooParallaxViewDatasource,MHYahooParallaxViewDelegate,UITableViewDelegate,UITableViewDataSource>
 
@@ -31,7 +30,6 @@
     [parallaxView registerClass:[MHTsekotCell class] forCellWithReuseIdentifier:[MHTsekotCell reuseIdentifier]];
     parallaxView.delegate = self;
     parallaxView.datasource = self;
-    parallaxView.backgroundColor = [UIColor grayColor];
     [self.view addSubview:parallaxView];
     
 	// Do any additional setup after loading the view, typically from a nib.
@@ -102,7 +100,6 @@
     return 568.0f;
 }
 
-
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell * cell;
     if(indexPath.row == 0){
@@ -129,7 +126,6 @@
             svImage.maximumZoomScale = 2.0f;
             [cell.contentView addSubview:svImage];
             UIImageView * headerInfo = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"header_bg"]];
-
 
             [cell.contentView addSubview:headerInfo];
 
@@ -168,8 +164,6 @@
     frame.origin.y = tv.contentOffset.y;
     svImage.frame = frame;
     svImage.zoomScale = 1 + (abs(MIN(tv.contentOffset.y,0))/320.0f);
-
-
 }
 
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {

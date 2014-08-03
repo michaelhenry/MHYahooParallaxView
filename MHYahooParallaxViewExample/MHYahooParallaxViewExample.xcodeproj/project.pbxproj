@@ -199,8 +199,8 @@
 		1434BE261980003E00DE8257 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				14F03040198EC60400F6EA24 /* MHYahooParallaxView.m */,
 				14F03041198EC60400F6EA24 /* MHYahooParallaxView.h */,
+				14F03040198EC60400F6EA24 /* MHYahooParallaxView.m */,
 				14F03042198EC60400F6EA24 /* MHYahooParallaxCollectionViewLayout.m */,
 				14F03043198EC60400F6EA24 /* MHYahooParallaxCollectionViewLayout.h */,
 			);
