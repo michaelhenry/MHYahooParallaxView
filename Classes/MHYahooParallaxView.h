@@ -28,18 +28,13 @@
 #import <UIKit/UIKit.h>
 
 @class MHYahooParallaxView;
-@class MHYahooParallaxViewCell;
 
 @protocol MHYahooParallaxViewDatasource <NSObject>
 
 @required
 
-- (NSInteger) numberOfRows: (MHYahooParallaxView *)parallaxView;
-
-@optional
-- (UIImage*) parallaxView:(MHYahooParallaxView *)parallaxView imageForIndex:(NSInteger)index;
-- (BOOL) shouldUseCustomCell;
-- (MHYahooParallaxViewCell*) parallaxView:(MHYahooParallaxView *)parallaxView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
+- (NSInteger) numberOfRowsInParallaxView: (MHYahooParallaxView *)parallaxView;
+- (UICollectionViewCell*) parallaxView:(MHYahooParallaxView *)parallaxView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
 
 @end
 
@@ -48,17 +43,9 @@
 @optional
 - (void) parallaxViewDidScrollHorizontally:(MHYahooParallaxView *)parallaxView leftIndex:(NSInteger) leftIndex leftImageLeftMargin:(CGFloat) leftImageLeftMargin leftImageWidth:(CGFloat)leftImageWidth rightIndex:(NSInteger)rightIndex rightImageLeftMargin:(CGFloat)rightImageLeftMargin rightImageWidth:(CGFloat) rightImageWidth;
 
+- (void) parallaxViewDidScrollVertically:(MHYahooParallaxView *)parallaxView topIndex:(NSInteger) topIndex topImageTopMargin:(CGFloat) topImageTopMargin topImageHeight:(CGFloat)topImageHeight bottomIndex:(NSInteger)bottomIndex bottomImageTopMargin:(CGFloat)bottomImageTopMargin bottomImageHeight:(CGFloat) bottomImageHeight;
+
 @end
-
-
-typedef enum {
-    MHYahooParallaxViewCellTypeHorizontalDefault = 0,
-    MHYahooParallaxViewCellTypeHorizontalCustom = 1,
-    MHYahooParallaxViewCellTypeVerticalDefault = 2,
-    MHYahooParallaxViewCellTypeVerticalCustom = 3
-
-} MHYahooParallaxViewCellType;
-
 
 typedef enum {
     MHYahooParallaxViewTypeHorizontal = 0,
@@ -66,23 +53,24 @@ typedef enum {
 } MHYahooParallaxViewType;
 
 
-@interface MHYahooParallaxViewCell : UITableViewCell
+@interface MHYahooParallaxView : UIView<UICollectionViewDelegate,UICollectionViewDataSource> {
+    CGFloat _width;
+    CGFloat _height;
+    NSInteger _currentPageIndex;
+    CGFloat _pageDivisor;
+    NSInteger _dataCount;
+}
 
-@property (strong, nonatomic) UIImageView * parallaxBackgroundImageView;
-@property (nonatomic) MHYahooParallaxViewCellType parallaxCellType;
-
-
-- (id)initWithReuseIdentifier:(NSString *)reuseIdentifier withType:(MHYahooParallaxViewCellType)parallaxCellType;
-@end
-
-
-@interface MHYahooParallaxView : UIView
+@property (nonatomic, strong) UICollectionView * parallaxCollectionView;
 
 @property (nonatomic) MHYahooParallaxViewType parallaxViewType;
 @property (nonatomic) id<MHYahooParallaxViewDatasource> datasource;
 @property (nonatomic) id<MHYahooParallaxViewDelegate> delegate;
 
-- (MHYahooParallaxViewCell*) dequeueReusableCellWithIdentifier:(NSString*)cellIdentifier;
-- (MHYahooParallaxViewCell*) cellForRowAtIndexPath:(NSIndexPath *)indexPath;
+- (id)initWithFrame:(CGRect)frame withViewType:(MHYahooParallaxViewType) viewType;
+
+- (void) registerClass:(__unsafe_unretained Class) cellClass forCellWithReuseIdentifier:(NSString *) reuseIdentifier;
+- (UICollectionViewCell*) cellForItemAtIndexPath:(NSIndexPath*)indexPath;
+- (UICollectionViewCell*) dequeueReusableCellWithReuseIdentifier:(NSString *) reuseIdentifier forIndexPath:(NSIndexPath*)indexPath ;
 
 @end
