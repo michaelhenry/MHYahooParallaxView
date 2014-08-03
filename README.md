@@ -5,7 +5,7 @@ Parallax implementation control library inspired by Yahoo Weather and News Diges
 
 ## Screenshots
 
-#### Default
+#### Yahoo Weather Parallax Example
 
 	- (UIImage*) parallaxView:(MHYahooParallaxView *)parallaxView imageForIndex:(NSInteger)index;
 
@@ -15,10 +15,8 @@ Parallax implementation control library inspired by Yahoo Weather and News Diges
 
 
 
-#### Custom ImageView Screenshot (Tsekot.net app - prototype)
+#### News Digest Parallax Example (Tsekot.net app - prototype)
 
-	- (MHYahooParallaxViewCell*) parallaxView:(MHYahooParallaxView *)parallaxView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
-	- (BOOL) shouldUseCustomCell; // Must return YES if using custom (the default value is NO)
 
 ![Preview](http://iamkel.s3.amazonaws.com/github/Tsekot.gif)
 
