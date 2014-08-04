@@ -41,7 +41,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+#pragma mark - ParallaxView Datasource and Delegate
 - (UICollectionViewCell*) parallaxView:(MHYahooParallaxView *)parallaxView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     MHTsekotCell * tsekotCell = (MHTsekotCell*)[parallaxView dequeueReusableCellWithReuseIdentifier:[MHTsekotCell reuseIdentifier] forIndexPath:indexPath];
     tsekotCell.delegate = self;
@@ -85,6 +85,7 @@
     }
 }
 
+#pragma mark - TableView Datasource and Delegate
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
 }
@@ -154,6 +155,7 @@
     return cell;
 }
 
+#pragma mark - ScrollView Delegate
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     if(scrollView.tag == IMAGE_SCROLL_VIEW_TAG) return;
     UITableView * tv = (UITableView*) scrollView;
