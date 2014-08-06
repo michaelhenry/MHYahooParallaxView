@@ -56,7 +56,6 @@ typedef enum {
 @interface MHYahooParallaxView : UIView<UICollectionViewDelegate,UICollectionViewDataSource> {
     CGFloat _width;
     CGFloat _height;
-    NSInteger _currentPageIndex;
     CGFloat _pageDivisor;
     NSInteger _dataCount;
 }
@@ -66,6 +65,7 @@ typedef enum {
 @property (nonatomic) MHYahooParallaxViewType parallaxViewType;
 @property (nonatomic) id<MHYahooParallaxViewDatasource> datasource;
 @property (nonatomic) id<MHYahooParallaxViewDelegate> delegate;
+@property (nonatomic) NSInteger currentIndex;
 
 - (id)initWithFrame:(CGRect)frame withViewType:(MHYahooParallaxViewType) viewType;
 
@@ -73,4 +73,5 @@ typedef enum {
 - (UICollectionViewCell*) cellForItemAtIndexPath:(NSIndexPath*)indexPath;
 - (UICollectionViewCell*) dequeueReusableCellWithReuseIdentifier:(NSString *) reuseIdentifier forIndexPath:(NSIndexPath*)indexPath ;
 
+- (void) setCurrentIndex:(NSInteger)index animated:(BOOL) animated;
 @end

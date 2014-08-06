@@ -32,6 +32,7 @@
 @synthesize delegate = _delegate;
 @synthesize datasource = _datasource;
 @synthesize parallaxViewType = _parallaxViewType;
+@synthesize currentIndex = _currentIndex;
 
 - (id)initWithFrame:(CGRect)frame {
     return [self initWithFrame:frame withViewType:MHYahooParallaxViewTypeHorizontal];
@@ -95,7 +96,7 @@
 
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    _currentPageIndex = scrollView.contentOffset.x/_width;
+    _currentIndex = scrollView.contentOffset.x/_width;
 
 
     if(_parallaxViewType == MHYahooParallaxViewTypeHorizontal){
@@ -103,9 +104,9 @@
         NSInteger leftIndex = -1;
         NSInteger rightIndex = -1;
 
-        leftIndex = _currentPageIndex;
+        leftIndex = _currentIndex;
 
-        if(_currentPageIndex < (_dataCount - 1)) {
+        if(_currentIndex < (_dataCount - 1)) {
             rightIndex = leftIndex + 1;
         }
 
@@ -124,9 +125,9 @@
         NSInteger topIndex = -1;
         NSInteger bottomIndex = -1;
 
-        topIndex = _currentPageIndex;
+        topIndex = _currentIndex;
 
-        if(_currentPageIndex < (_dataCount - 1)) {
+        if(_currentIndex < (_dataCount - 1)) {
             bottomIndex = topIndex + 1;
         }
 
@@ -142,7 +143,18 @@
     }
 }
 
+- (void) setCurrentIndex:(NSInteger)index {
+    [self setCurrentIndex:index animated:NO];
+}
+
+- (void) setCurrentIndex:(NSInteger)index animated:(BOOL) animated {
+     _currentIndex = index;
+    [_parallaxCollectionView setContentOffset:CGPointMake(index * _width, 0.0f) animated:animated];
+}
+
 - (void) dealloc {
     _parallaxCollectionView = nil;
 }
+
+
 @end
