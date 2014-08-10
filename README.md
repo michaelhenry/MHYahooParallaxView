@@ -29,7 +29,7 @@ Designed and developed by [michaelhenry](https://github.com/michaelhenry)
     parallaxView.datasource = self;
     [self.view addSubview:parallaxView];
 
-### Datasource
+### Datasource (MHYahooParallaxViewDatasource)
 	
 	@required
 
@@ -37,7 +37,7 @@ Designed and developed by [michaelhenry](https://github.com/michaelhenry)
 	- (UICollectionViewCell*) parallaxView:(MHYahooParallaxView *)parallaxView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
 
 	
-### Delegate
+### Delegate (MHYahooParallaxViewDelegate)
 
 	@optional
 	- (void) parallaxViewDidScrollHorizontally:(MHYahooParallaxView *)parallaxView leftIndex:(NSInteger) leftIndex leftImageLeftMargin:(CGFloat) leftImageLeftMargin leftImageWidth:(CGFloat)leftImageWidth rightIndex:(NSInteger)rightIndex rightImageLeftMargin:(CGFloat)rightImageLeftMargin rightImageWidth:(CGFloat) rightImageWidth;
