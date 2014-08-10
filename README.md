@@ -7,8 +7,6 @@ Parallax implementation control library inspired by Yahoo Weather and News Diges
 
 #### Yahoo Weather Parallax Example
 
-	- (UIImage*) parallaxView:(MHYahooParallaxView *)parallaxView imageForIndex:(NSInteger)index;
-
 
 ![Preview](http://iamkel.s3.amazonaws.com/github/MHParallaxIntro.gif)
 ![Preview](http://iamkel.s3.amazonaws.com/github/MHParallax.gif)
