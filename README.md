@@ -7,8 +7,6 @@ Parallax implementation control library inspired by Yahoo Weather and News Diges
 
 #### Yahoo Weather Parallax Example
 
-	- (UIImage*) parallaxView:(MHYahooParallaxView *)parallaxView imageForIndex:(NSInteger)index;
-
 
 ![Preview](http://iamkel.s3.amazonaws.com/github/MHParallaxIntro.gif)
 ![Preview](http://iamkel.s3.amazonaws.com/github/MHParallax.gif)
@@ -31,7 +29,7 @@ Designed and developed by [michaelhenry](https://github.com/michaelhenry)
     parallaxView.datasource = self;
     [self.view addSubview:parallaxView];
 
-### Datasource
+### Datasource (MHYahooParallaxViewDatasource)
 	
 	@required
 
@@ -39,7 +37,7 @@ Designed and developed by [michaelhenry](https://github.com/michaelhenry)
 	- (UICollectionViewCell*) parallaxView:(MHYahooParallaxView *)parallaxView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
 
 	
-### Delegate
+### Delegate (MHYahooParallaxViewDelegate)
 
 	@optional
 	- (void) parallaxViewDidScrollHorizontally:(MHYahooParallaxView *)parallaxView leftIndex:(NSInteger) leftIndex leftImageLeftMargin:(CGFloat) leftImageLeftMargin leftImageWidth:(CGFloat)leftImageWidth rightIndex:(NSInteger)rightIndex rightImageLeftMargin:(CGFloat)rightImageLeftMargin rightImageWidth:(CGFloat) rightImageWidth;
