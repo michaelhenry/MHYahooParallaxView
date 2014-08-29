@@ -63,8 +63,8 @@ typedef enum {
 @property (nonatomic, strong) UICollectionView * parallaxCollectionView;
 
 @property (nonatomic) MHYahooParallaxViewType parallaxViewType;
-@property (nonatomic) id<MHYahooParallaxViewDatasource> datasource;
-@property (nonatomic) id<MHYahooParallaxViewDelegate> delegate;
+@property (nonatomic,assign) id<MHYahooParallaxViewDatasource> datasource;
+@property (nonatomic,assign) id<MHYahooParallaxViewDelegate> delegate;
 @property (nonatomic) NSInteger currentIndex;
 
 - (id)initWithFrame:(CGRect)frame withViewType:(MHYahooParallaxViewType) viewType;
