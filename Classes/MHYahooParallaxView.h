@@ -58,6 +58,7 @@ typedef enum {
     CGFloat _height;
     CGFloat _pageDivisor;
     NSInteger _dataCount;
+    CGFloat _separatorWidth;
 }
 
 @property (nonatomic, strong) UICollectionView * parallaxCollectionView;

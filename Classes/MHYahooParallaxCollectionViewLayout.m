@@ -28,28 +28,35 @@
 #import "MHYahooParallaxCollectionViewLayout.h"
 
 @implementation MHYahooParallaxCollectionViewLayout
+@synthesize separatorWidth = _separatorWidth;
 
 - (id) init{
     self = [super init];
     if(self) {
-
+        _separatorWidth = 0;
     }
     return self;
 }
 - (void) prepareLayout {
-    _itemSize = self.collectionView.bounds.size;
+    CGSize boundSize = self.collectionView.bounds.size;
+    boundSize.width = boundSize.width - _separatorWidth;
+    _itemSize = boundSize;
+
 }
 
 - (CGSize) collectionViewContentSize {
-    return CGSizeMake( self.collectionView.bounds.size.width *  [[self collectionView]numberOfItemsInSection:0],self.collectionView.bounds.size.height);
+    NSInteger numberOfItems = [[self collectionView]numberOfItemsInSection:0];
+    CGSize cvSize = CGSizeMake((self.collectionView.bounds.size.width * numberOfItems) ,self.collectionView.bounds.size.height);
+    return cvSize;
 }
 
 - (UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewLayoutAttributes * attributes = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
     attributes.size = _itemSize;
-    attributes.center =CGPointMake( (indexPath.row * self.collectionView.bounds.size.width) + self.collectionView.bounds.size.width/2, self.collectionView.bounds.size.height/2);
+    attributes.center =CGPointMake((_separatorWidth * indexPath.row) + (indexPath.row * (self.collectionView.bounds.size.width - _separatorWidth)) + (self.collectionView.bounds.size.width - _separatorWidth)/2, self.collectionView.bounds.size.height/2);
     return attributes;
 }
+
 - (NSArray *)layoutAttributesForElementsInRect:(CGRect)rect {
     NSMutableArray * attributes = [NSMutableArray array];
     for (NSInteger i = 0,j = [[self collectionView]numberOfItemsInSection:0]; i < j;i ++){

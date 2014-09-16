@@ -42,11 +42,13 @@
     self = [super initWithFrame:frame];
     if (self) {
         MHYahooParallaxCollectionViewLayout *layout = [[MHYahooParallaxCollectionViewLayout alloc]init];
+        _separatorWidth = 5.0f;
+        layout.separatorWidth = _separatorWidth;
+        frame.size.width = frame.size.width + _separatorWidth;
         _parallaxCollectionView = [[UICollectionView alloc]initWithFrame:frame collectionViewLayout:layout];
         _parallaxCollectionView.delegate = self;
         _parallaxCollectionView.dataSource = self;
         _parallaxCollectionView.pagingEnabled = YES;
-
         _parallaxViewType = viewType;
 
         [self addSubview:_parallaxCollectionView];
@@ -96,7 +98,7 @@
 
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    _currentIndex = scrollView.contentOffset.x/_width;
+    _currentIndex = scrollView.contentOffset.x/(_width + _separatorWidth);
 
 
     if(_parallaxViewType == MHYahooParallaxViewTypeHorizontal){
@@ -110,11 +112,10 @@
             rightIndex = leftIndex + 1;
         }
 
-        
-        CGFloat leftImageMargingLeft = scrollView.contentOffset.x>0?((fmod(scrollView.contentOffset.x + _width,_width))):0.0f;
-        CGFloat leftImageWidth = _width - (fmod(abs(scrollView.contentOffset.x),_width));
+        CGFloat leftImageMargingLeft = scrollView.contentOffset.x>0?((fmod(scrollView.contentOffset.x + _width + _separatorWidth,_width + _separatorWidth))):0.0f;
+        CGFloat leftImageWidth = (_width + _separatorWidth) - (fmod(abs(scrollView.contentOffset.x + _separatorWidth ),_width + _separatorWidth)) - _separatorWidth;
         CGFloat rightImageMarginLeft = 0.0f;
-        CGFloat rightImageWidth = leftImageMargingLeft;
+        CGFloat rightImageWidth =  leftImageMargingLeft - _separatorWidth;
 
         if([_delegate respondsToSelector:(@selector(parallaxViewDidScrollHorizontally:leftIndex:leftImageLeftMargin:leftImageWidth:rightIndex:rightImageLeftMargin:rightImageWidth:))]) {
             [_delegate parallaxViewDidScrollHorizontally:self leftIndex:leftIndex leftImageLeftMargin:leftImageMargingLeft leftImageWidth:leftImageWidth rightIndex:rightIndex rightImageLeftMargin:rightImageMarginLeft rightImageWidth:rightImageWidth];

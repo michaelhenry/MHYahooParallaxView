@@ -31,4 +31,5 @@
     CGSize _itemSize;
 }
 
+@property (nonatomic) CGFloat separatorWidth;
 @end
