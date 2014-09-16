@@ -113,7 +113,7 @@
         }
 
         CGFloat leftImageMargingLeft = scrollView.contentOffset.x>0?((fmod(scrollView.contentOffset.x + _width + _separatorWidth,_width + _separatorWidth))):0.0f;
-        CGFloat leftImageWidth = (_width + _separatorWidth) - (fmod(abs(scrollView.contentOffset.x + _separatorWidth ),_width + _separatorWidth)) - _separatorWidth;
+        CGFloat leftImageWidth = (_width + _separatorWidth) - (fmod(abs(scrollView.contentOffset.x + _separatorWidth ),_width + _separatorWidth));
         CGFloat rightImageMarginLeft = 0.0f;
         CGFloat rightImageWidth =  leftImageMargingLeft - _separatorWidth;
 
