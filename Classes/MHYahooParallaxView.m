@@ -150,7 +150,7 @@
 
 - (void) setCurrentIndex:(NSInteger)index animated:(BOOL) animated {
      _currentIndex = index;
-    [_parallaxCollectionView setContentOffset:CGPointMake(index * _width, 0.0f) animated:animated];
+    [_parallaxCollectionView setContentOffset:CGPointMake(index * _width + (_separatorWidth * index), 0.0f) animated:animated];
 }
 
 - (void) dealloc {
